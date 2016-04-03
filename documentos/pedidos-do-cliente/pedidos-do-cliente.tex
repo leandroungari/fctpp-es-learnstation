@@ -1,0 +1,94 @@
+\documentclass[12pt,a4paper,onecolumn,titlepage]{article}
+%\documentclass[conference]{IEEEtran} %\Caso queira submeter o artigo para padrão IEEE.
+
+\usepackage[brazil]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{figuras/}}
+
+\begin{document} %Inicio do documento
+
+\begin{titlepage} %Capa
+	
+	\vfill
+	\begin{center}
+	
+		{\large \textbf{Faculdade de Ciências e Tecnologia\\Universidade Estadual Paulista\\``Júlio de Mesquita Filho''}} \\[3cm]
+		{\large \textbf{Bruno Santos de Lima}}\\
+		{\large \textbf{Leandro Ungari Cayres}}\\[4cm]
+		{\Large Requisitos pedidos pelo cliente}\\
+		{\Large Sistema LearnStation}\\[4cm]
+
+	\hspace{.45\textwidth} %posiciona a minipage
+	\begin{minipage}{.5\textwidth}
+		\large Disciplina de Engenharia de Software I. Professor Dr. Rogério Eduardo Garcia.\\[0.5cm]
+	\end{minipage}
+
+	\vfill
+	\vspace{1.5cm}
+	
+	\large \textbf{Presidente Prudente\\}
+	\large \textbf{Abril - 2016}
+	
+	\end{center}
+	
+\end{titlepage}
+%Fim da capa
+
+%Conteúdo do documento
+
+\section{Introdução}
+\label{sect:intro}
+
+Rede social – Ensino e aprendizagem de cursos em geral.\\
+
+A ideia seria facilitar o compartilhamento de conhecimento entre pessoas de diversos locais no mundo, em que cada pessoa teria interesses em aprender ou ensinar diversas coisas e essa troca de conhecimentos ocorreria por meio de cursos de diversas temáticas, cursos esses que são criados pelos próprios usuários da rede social, cada curso tem um conjunto de aulas que estas por sua vez oferecem além de vídeo aulas, questionários, documentos textuais e informações de contatos do criador (e também professor) do curso. A pessoa entra na rede social procura por cursos podendo adicionar amigos que também fazem cursos em comum para trocar conhecimentos entre si, podendo também utilizar um chat para conversar sobre os conteúdos apreendidos com seus amigos.
+
+\section{Pedidos do cliente}
+\label{sect:pedidos}
+
+Está seção é uma simulação de uma entrevista que hipoteticamente foi realizada com o cliente que encomendou o sistema, nela é detalhada uma serie de pedidos feitos pelo cliente, assim através desses pedidos será elaborado o documento de requisitos do sistema LearnStation, os pedidos são descritos abaixo:
+
+\begin{itemize}
+\item Usuário pode cadastrar-se na rede social.
+\item Usuário pode alterar os dados do cadastro na rede social.
+\item Usuário pode excluir sua conta (cadastro) criada na rede social, deixando de existir para o sistema.
+\item Usuário tem um perfil que mostra seu nome e último nome, pais no qual reside, informação de contato (opcional), áreas de interesse, além dos cursos no qual ele participa e no qual ele é professor.
+\item Usuário pode ter amigos e conversar com eles através de um chat da rede social.
+\item Usuário pode enviar e receber solicitações de amizades.
+\item Usuário pode buscar por pessoas que também utilizam a rede social.
+\item Usuário pode buscar por cursos e se inscrever neles.
+\item Usuário pode cancelar sua inscrição em um determinado curso.
+\item Usuário pode criar um novo curso no qual ele será o único professor deste curso.
+\item Usuário pode ser professor em mais de um curso.
+\item Usuário pode ser um professor de cursos criados por ele, mas também pode ser aluno de cursos criados por outros professores.
+\item Usuário que é professor de um curso pode adicionar novas aulas neste curso.
+\item Não há limite de aulas por curso.
+\item Não há um limite de alunos que podem ser adicionados.
+\item Em cada aula o professor pode deixar materiais seja eles no formato de mídia (audiovisuais), textual ou na forma de questionários.
+\item Os materiais de cada aula são visíveis para todos os alunos inscritos no curso.
+\item Os alunos não inscritos pode ver o curso, porem só terão acesso as duas primeiras aulas do curso, as aulas restantes somente terão acesso usuários que estiverem inscritos no curso.
+\item Usuário pode avaliar a qualidade dos cursos na qual ele é inscrito.
+\item Usuário não pode avaliar o curso no qual ele é professor.
+\item Cada curso tem uma área de conhecimento.
+\item A busca por cursos pode ser realizada por área, por palavras chaves ou por ambos.
+\item A busca por usuários pode ser realizada por área que o usuário a ser buscado tem interesse ou pelo nome do usuário.
+\item O sistema deve funcionar corretamente e igualmente independente do navegador em que o usuário estiver utilizando.
+\item O sistema não terá uma versão exclusiva para mobile.
+\item No chat só será enviado mensagens textuais, podendo contém links, porem o sistema não proverá envio de arquivos de imagem, vídeo, gif animados, emotiocons, somente mensagens textuais.
+\item O foco do sistema está no compartilhamento de conhecimento por meio dos cursos.
+\item O sistema não terá uma timeline ou feed de notícias.
+\item Usuário recebe notificação de recebimento de mensagem de um amigo no chat.
+\item Usuário recebe notificação de nova aula adicionada no curso em que é aluno e também notificações de recebimento de solicitação de amizade.
+\end{itemize}
+
+%Fim do conteúdo do documento
+
+
+
+%referencias - estilos: http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html
+%\bibliographystyle{acm}
+%\bibliography{referencias}
+
+\end{document} %Fim do documento
