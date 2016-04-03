@@ -42,15 +42,15 @@
 
 \subsection{Propósito do documento de requisitos}
 
-O documento tem como objetivo descrever técnicas e métodos utilizados para desenvolvimento do software, assim como todos os recursos de hardware e software necessarios para a elaboração deste, contendo todas as especificações de requisitos necessários. Esta ferramenta não possui um público alvo específico, porém é destinada a todos aqueles que tem interesse em aprender ou transmitir conhecimento.
+O documento tem como objetivo descrever técnicas e métodos utilizados para desenvolvimento do software, assim como todos os recursos de hardware e software necessários para a elaboração deste, contendo todas as especificações de requisitos necessários. Esta ferramenta não possui um público alvo específico, porém é destinada a todos aqueles que tem interesse em aprender ou transmitir conhecimento.
 
 \subsection{Escopo do produto}
 
-O sistema busca oferecer um compartilhamento de conhecimento entre pessoas, permitindo a interação destas através de um sistema de conversa, interação entre amigos e participação em cursos tanto como ministrante ou como aluno. Além disso, é possível, sendo ministrante, disponibilizar o seu próprio curso contendo material textual, questionários e até componentes de mídia.
+O sistema busca oferecer um compartilhamento de conhecimento entre pessoas, permitindo a interação destas através de um sistema de conversa, interação entre amigos e participação em cursos tanto como professor ou aluno. Além disso, é possível, sendo professor, disponibilizar o seu próprio curso contendo material textual, questionários e até componentes de mídia.
 
 \subsection{Definições, siglas e abreviaturas}
 
-Abaixo segue a lista de siglas e abreviaturas utilizadas neste documento:
+Segue abaixo, a lista de siglas e abreviaturas utilizadas neste documento:
 \begin{itemize}
 \item RF: Requisito Funcional
 \item RNF: Requisito não Funcional
@@ -102,53 +102,48 @@ Este software não possui nenhuma limitação quanto ao sistema operativo ou har
 
 \subsection{Requisitos Funcionais}
 
-RF. 1: Usuário.
+%Acho que não precisa separar por tópicos específicos, a numeração basta como no exemplo do slide dele
+%RF. 1: Usuário.
 
 %RF. 1.1: Manter Usuário.
 
-RF. 1.1: Registrar dados do usuário após o cadastro na rede social. (E)
+RF. 1.1: Registrar dados do usuário após o cadastro no sistema. (E)
 
-RF. 1.2: Buscar Usuários. (E)
+RF. 1.2: Busca e listagem de usuários. (E)
 
-RF. 1.3: Exibir lista de usuários buscados. (E)
+RF. 1.3: Exibir perfil de usuário que foi buscado ou de usuário, que é professor de um determinado curso.
 
-RF. 1.4: Exibir perfil de Usuário que foi buscado ou de Usuário que é professor de um determinado curso.
+RF. 1.4: Enviar e responder solicitação de amizade. (E)
 
-RF. 1.5: Enviar e responder solicitação de amizade. (E)
+RF. 1.5: Exclusão de amizade. (E)
 
-RF. 1.6: Exclusão de amizade. (E)
+RF. 1.6: Busca e listagem de cursos. (E)
 
-RF. 1.7: Buscar Cursos. (E)
+RF. 1.7: Inscrição em Curso. (E)
 
-RF. 1.8: Exibir lista de cursos buscados. (E)
+RF. 1.8: Cancelamento de Inscrição em Curso. (E)
 
-RF. 1.9: Inscrição em Curso. (E)
+RF. 1.9: Criar Curso. (E)
 
-RF. 1.10: Cancelamento de Inscrição em Curso. (E)
-
-RF. 1.11: Criar Curso. (E)
-
-RF. 1.12: Avaliar qualidade de cursos. (E)
+RF. 1.10: Avaliar qualidade de cursos. (E)
 
 %Pode tirar o 1.13 é apenas algo que pensei, mas talvez eu tenha viajado um pouco.
-RF. 1.13: Comunicação com sistema externo para criptografar contas de usuarios antes de registra-lo. (O)
+%Não é viagem, não este mecanismo não será externo mas sim interno, pesquisar por md5 php
+RF. 1.11: Realizar criptografia da senha de usuários. (O)
 
-RF. 1.14: Enviar mensagem para amigo via chat. (E)
+RF. 1.12: Enviar e receber mensagens para amigo por meio de conversa. (E)
 
-RF. 1.15: Receber mensagem de amigo via chat. (E)
+RF. 1.13: Notificação de recebimento de uma mensagem de um amigo no chat. (E)
 
-RF. 1.16: Notificações de informação, na forma de aviso de aulas novas inseridas no curso em que está inscrito ou de solicitação de amizade. (0) ou (E)
+RF. 1.14: Notificações de informação, na forma de aviso de aulas novas inseridas no curso em que está inscrito ou de solicitação de amizade. (E)
 
-RF. 1.17: Notificação de recebimento de uma mensagem de um amigo no chat. (O) ou (E)
-
-RF. 2: Curso.
-
+%RF. 2: Curso.
 RF. 2.1: Manter Aula. (E)
 
-RF. 2.1: Exibir perfil do Curso buscado. (E)
+RF. 2.1: Exibir perfil do curso. (E)
 
 
-RF. 3: Aula.
+%RF. 3: Aula.
 
 %Mudaria o 3.1 e o 3.2 Anexar materiais das aulas e na descrição do requisito informar os tipos de materiais.
 RF. 3.1: Anexo Documentos de Texto. (E)
@@ -165,14 +160,17 @@ RF. 3.4: Exibir informação da Aula. (E)
 %Abaixo apenas listei algumas ideia para os requisitos não funcionais.
 
 
-RNF: 1: O sistema será desenvolvido para a plataforma web utilizando como linguagem de programação o PHP, além de linguagem de marcação HTML, CSS, utilizando também alguns scripts.\\
+RNF. 1: O sistema será desenvolvido para a plataforma web utilizando como linguagem de programação o PHP, além de linguagem de marcação HTML, CSS, assim como utilizando JavaScript.\\
 
-RNF: 2: Para utilizar o sistema basta utilizar um software para navegação na internet e utilizar um endereço para comunicação com o servidor em que o sistema está rodando e assim começar a utilizar a rede social LearnSatation.\\
+RNF. 2: Para utilizar o sistema basta utilizar um software para navegação na internet e utilizar um endereço para comunicação com o servidor em que o sistema está rodando e assim começar a utilizar a rede social LearnStation.\\
 
-RNF: 3: O sistema está em funcionamento em dois servidores um deles sendo o principal e o outro o secundario para caso ocorra algum problema com o servidor principal o sistma ainda possa continuar em funcionamento.\\
+RNF. 3: Para o armazenamento dos dados será utilizado o Sistema de Gerenciamento de Banco de Dados MySQL.\\
+
+%Esse aqui foi viajado
+%RNF: 3: O sistema está em funcionamento em dois servidores um deles sendo o principal e o outro o secundario para caso ocorra %algum problema com o servidor principal o sistma ainda possa continuar em funcionamento.\\
 
 %Talvez eu tenha viajado um pouco quanto a isso.
-RNF: 4: A rede social vai utilizar um sistema externo de criptografia para realização de login e logout por parte dos usuarios afim de prover uma maior segurança.\\
+%RNF: 4: A rede social vai utilizar um sistema externo de criptografia para realização de login e logout por parte dos usuarios %afim de prover uma maior segurança.\\
 
 %\subsection{Requisitos Desempenho}
 %\subsection{Requisitos Lógicos de Banco de Dados}
@@ -192,9 +190,6 @@ RNF: 4: A rede social vai utilizar um sistema externo de criptografia para reali
 \label{sect:apendices}
 
 %Fim do conteúdo do documento
-
-
-
 %referencias - estilos: http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html
 %\bibliographystyle{acm}
 %\bibliography{referencias}
