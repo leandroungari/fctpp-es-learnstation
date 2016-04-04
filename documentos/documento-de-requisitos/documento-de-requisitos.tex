@@ -1,5 +1,4 @@
 \documentclass[12pt,a4paper,onecolumn,titlepage]{article}
-%\documentclass[conference]{IEEEtran} %\Caso queira submeter o artigo para padrão IEEE.
 
 \usepackage[brazil]{babel}
 %\usepackage[latin1]{inputenc}
@@ -97,21 +96,18 @@ Este software não possui nenhuma limitação quanto ao sistema operativo ou har
 \section{Requisitos Específicos}
 \label{sect:requisitos}
 
-%\subsection{Interfaces Externas} Poderia usar um sistema externo para criptografar contas de usuarios.
+%\subsection{Interfaces Externas} Poderia usar um sistema externo para criptografar contas de usuarios ou o facebook para criar contas de usuários.
 
 
 \subsection{Requisitos Funcionais}
 
-%Acho que não precisa separar por tópicos específicos, a numeração basta como no exemplo do slide dele
 %RF. 1: Usuário.
-
-%RF. 1.1: Manter Usuário.
 
 RF. 1.1: Registrar dados do usuário após o cadastro no sistema. (E)
 
 RF. 1.2: Busca e listagem de usuários. (E)
 
-RF. 1.3: Exibir perfil de usuário que foi buscado ou de usuário, que é professor de um determinado curso.
+RF. 1.3: Exibir perfil de usuário que foi buscado ou de usuário que é professor de um determinado curso.
 
 RF. 1.4: Enviar e responder solicitação de amizade. (E)
 
@@ -127,11 +123,10 @@ RF. 1.9: Criar Curso. (E)
 
 RF. 1.10: Avaliar qualidade de cursos. (E)
 
-%Pode tirar o 1.13 é apenas algo que pensei, mas talvez eu tenha viajado um pouco.
 %Não é viagem, não este mecanismo não será externo mas sim interno, pesquisar por md5 php
 RF. 1.11: Realizar criptografia da senha de usuários. (O)
 
-RF. 1.12: Enviar e receber mensagens para amigo por meio de conversa. (E)
+RF. 1.12: Enviar e receber mensagens textuais de um amigo por meio de conversa. (E)
 
 RF. 1.13: Notificação de recebimento de uma mensagem de um amigo no chat. (E)
 
@@ -141,7 +136,6 @@ RF. 1.14: Notificações de informação, na forma de aviso de aulas novas inser
 RF. 2.1: Manter Aula. (E)
 
 RF. 2.1: Exibir perfil do curso. (E)
-
 
 %RF. 3: Aula.
 
@@ -154,11 +148,7 @@ RF. 3.3: Manter Exercicíos. (E)
 
 RF. 3.4: Exibir informação da Aula. (E)
 
-
 \subsection{Requisitos Não Funcionais}
-
-%Abaixo apenas listei algumas ideia para os requisitos não funcionais.
-
 
 RNF. 1: O sistema será desenvolvido para a plataforma web utilizando como linguagem de programação o PHP, além de linguagem de marcação HTML, CSS, assim como utilizando JavaScript.\\
 
@@ -166,10 +156,7 @@ RNF. 2: Para utilizar o sistema basta utilizar um software para navegação na i
 
 RNF. 3: Para o armazenamento dos dados será utilizado o Sistema de Gerenciamento de Banco de Dados MySQL.\\
 
-%Esse aqui foi viajado
-%RNF: 3: O sistema está em funcionamento em dois servidores um deles sendo o principal e o outro o secundario para caso ocorra %algum problema com o servidor principal o sistma ainda possa continuar em funcionamento.\\
-
-%Talvez eu tenha viajado um pouco quanto a isso.
+%Possivel ideia de uma interface externa
 %RNF: 4: A rede social vai utilizar um sistema externo de criptografia para realização de login e logout por parte dos usuarios %afim de prover uma maior segurança.\\
 
 %\subsection{Requisitos Desempenho}
