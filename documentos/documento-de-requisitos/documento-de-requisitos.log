@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.27)  2 APR 2016 13:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.27)  5 APR 2016 16:24
 entering extended mode
 **documento-de-requisitos.tex
-(C:\Users\BRUNO\Desktop\documento-de-requisitos\documento-de-requisitos.tex
+
+("C:\Users\BRUNO\Documents\Ciência da Computação - UNESP\3º Ano\1º Semestr
+e\Engenharia de Software I\fctpp-es-learnstation\documentos\documento-de-requis
+itos\documento-de-requisitos.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -299,19 +302,21 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(C:\Users\BRUNO\Desktop\documento-de-requisitos\documento-de-requisitos.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+("C:\Users\BRUNO\Documents\Ciência da Computação - UNESP\3º Ano\1º Semestr
+e\Engenharia de Software I\fctpp-es-learnstation\documentos\documento-de-requis
+itos\documento-de-requisitos.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -327,78 +332,78 @@ LaTeX Font Info:    ... okay on input line 10.
 \makeMPintoPDFobject=\count94
 \everyMPtoPDFconversion=\toks18
 )
-Underfull \hbox (badness 2951) in paragraph at lines 25--26
+Underfull \hbox (badness 2951) in paragraph at lines 24--25
 []\OT1/cmr/m/n/14.4 Disciplina de En-ge-nha-ria de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 \OT1/cmr/m/n/14.4 Soft-ware I. Pro-fes-sor Dr.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 26.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 26.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 26.
+(Font)              <6> on input line 25.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
  [1]
 <figuras/figura1.png, id=12, 544.0325pt x 220.825pt>
 File: figuras/figura1.png Graphic file (type png)
  <use figuras/figura1.png>
-Package pdftex.def Info: figuras/figura1.png used on input line 77.
+Package pdftex.def Info: figuras/figura1.png used on input line 76.
 (pdftex.def)             Requested size: 380.82016pt x 154.57643pt.
 
-[2 <C:/Users/BRUNO/Desktop/documento-de-requisitos/figuras/figura1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[2 <C:/Users/BRUNO/Documents/Ciência da Computação - UNESP/3º Ano/1º Semes
+tre/Engenharia de Software I/fctpp-es-learnstation/documentos/documento-de-requ
+isitos/figuras/figura1.png>] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-[4] (C:\Users\BRUNO\Desktop\documento-de-requisitos\documento-de-requisitos.aux
-) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+[4]
+("C:\Users\BRUNO\Documents\Ciência da Computação - UNESP\3º Ano\1º Semestr
+e\Engenharia de Software I\fctpp-es-learnstation\documentos\documento-de-requis
+itos\documento-de-requisitos.aux") ) 
 Here is how much of TeX's memory you used:
- 1700 strings out of 493921
- 21411 string characters out of 3147282
- 76958 words of memory out of 3000000
- 5003 multiletter control sequences out of 15000+200000
- 7587 words of font info for 27 fonts, out of 3000000 for 9000
+ 1697 strings out of 493921
+ 22180 string characters out of 3147282
+ 76934 words of memory out of 3000000
+ 5000 multiletter control sequences out of 15000+200000
+ 7894 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,24p,470b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on documento-de-requisitos.pdf (5 pages, 71842 bytes).
+ 27i,6n,24p,471b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b>
+Output written on documento-de-requisitos.pdf (5 pages, 71528 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
