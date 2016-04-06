@@ -69,12 +69,13 @@ O sistema utiliza uma máquina de servidor que trabalha diretamente com o banco 
 \subsection{Funções do Produto}
 
 
-O sistema permite o cadastro de usuários, assim como as interações destes visando o compartilhamento de conhecimentos, através de cursos desenvolvidos por alguns usuários buscando a aprendizagem dos demais.
+O sistema permite que os usuários realizem inscrição em um ou mais cursos de diversas temáticas, sendo que estes cursos foram elaborados por outros usuários, que desta forma atuam no papel de professor. Os cursos são compostos por aulas, cujo conteúdo destas abrange tanto materiais textuais quando recursos de multimídia. Os usuários podem relacionar-se enviando solicitações de amizade, em que a partir do momento em que ambos são amigos eles também podem comunicar-se através de conversas.
+
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[scale=0.7]{figura1.png}
-  \caption{Funcionamento da rede social}
+  \caption{Funcionamento da rede social de cursos}
   \label{figRotulo}
 \end{figure}
 
@@ -85,9 +86,9 @@ O usuários do sistema tem como características o interesse em transmitir ou ad
 
 \subsection{Restrições}
 
-O sistema será desenvolvido para uma plataforma web, desta forma podendo ser acessível tanto por desktop ou por dispositivos móveis, sendo que este último tem maiores restrições de hardware e determinados conteúdos relacionados aos cursos podem ter seu desempenho reduzido devido a essas limitações.
+O sistema será desenvolvido para plataforma web, desta forma sendo acessível tanto por desktop ou por dispositivos móveis, sendo que este último tem maiores restrições de hardware e determinados conteúdos relacionados aos cursos, especificamente conteúdos de multimídia, podem ter sua execução impedida ou desempenho reduzido devido a essas limitações.
 
-Em relação ao restante do projeto este utiliza as recentes tecnologias de desenvolvimento web, logo usuários que possuam navegadores desatualizados poderão enfrentar algumas dificuldades.
+Em relação ao restante do projeto, este se utiliza das recentes tecnologias de desenvolvimento web, logo usuários que possuirem navegadores desatualizados poderão enfrentar algumas dificuldades.
 
 \subsection{Suposições e Dependências}
 
@@ -98,57 +99,74 @@ Este software não possui nenhuma limitação quanto ao sistema operativo ou har
 
 %\subsection{Interfaces Externas} Poderia usar um sistema externo para criptografar contas de usuarios ou o facebook para criar contas de usuários.
 
-
 \subsection{Requisitos Funcionais}
 
 \begin{description}
 
 %RF. 1: Usuário.
 
-\item RF. 1.1: Registrar dados do usuário após o cadastro no sistema. (E)
+\item RF. 1.1: Registrar a inscrição do usuário. (E)
+\item \qquad Informações do usuário: Nome completo, data de nascimento, e-mail, senha, país onde reside, gênero.
 
 \item RF. 1.2: Busca e listagem de usuários. (E)
+\item \qquad A busca será realizada por nome de usuário.
 
-\item RF. 1.3: Exibir perfil de usuário que foi buscado ou de usuário que é professor de um determinado curso.
+\item RF. 1.3: Exibir perfil de usuário que foi buscado. (E)
+\item \qquad Serão exibidas informações de identificação e contato do usuário.
 
 \item RF. 1.4: Enviar e responder solicitação de amizade. (E)
+\item \qquad Para o envio será especificado o usuário tais como o dia e a hora em que foram solicitados, e para a resposta a confirmação ou não além do horário da operação.
 
-\item RF. 1.5: Exclusão de amizade. (E)
+\item RF. 1.5: Cancelamento de amizade. (E)
+\item \qquad Neste quesito o cancelamento de amizade ocorre de forma mútua.
 
 \item RF. 1.6: Busca e listagem de cursos. (E)
+\item \qquad Os cursos são buscados por nome e área de conhecimento.
  
 \item RF. 1.7: Inscrição em Curso. (E)
+\item \qquad O usuário efetua a inscrição no curso e passa a ter acesso ao conteúdo do curso por completo.
 
 \item RF. 1.8: Cancelamento de Inscrição em Curso. (E)
+\item \qquad O usuário efetua o cancelamento passando a não ter mais acesso ao conteúdo das aulas e perde seu progresso no mesmo.
 
 \item RF. 1.9: Criar Curso. (E)
+\item \qquad O usuário pode criar um curso, passando a ser professor deste, fornecendo as seguintes informações: nome do curso, área de conhecimento, nível de complexidade (básico, intermediário e avançado).
 
 \item RF. 1.10: Avaliar qualidade de cursos. (E)
+\item \qquad O usuário pode avaliar a qualidade do curso em que está inscrito, sendo esta qualidade classificada por no maxímo 5 estrelas.
 
 %Não é viagem, não este mecanismo não será externo mas sim interno, pesquisar por md5 php
-\item RF. 1.11: Realizar criptografia da senha de usuários. (O)
+\item RF. 1.11: Prover maior segurança das informações dos usuários. (O)
+\item \qquad Será realiza a criptografia da senha dos usuários.
 
-\item RF. 1.12: Enviar e receber mensagens textuais de um amigo por meio de conversa. (E)
+\item RF. 1.12: Enviar e receber mensagens para um amigo. (E)
+\item \qquad As mensagens podem ser trocadas entre dois usuários sempre na forma de textos.
 
-\item RF. 1.13: Notificação de recebimento de uma mensagem de um amigo no chat. (E)
+%\item RF. 1.13: Notificação de recebimento de uma mensagem de um amigo. (E)
+%\item \qquad O usuário é notificado que recebeu uma mensegem de um determinado amigo.
 
-\item RF. 1.14: Notificações de informação, na forma de aviso de aulas novas inseridas no curso em que está inscrito ou de solicitação de amizade. (E)
+%\item RF. 1.14: Notificações de informação, na forma de aviso de aulas novas inseridas no curso em que está %inscrito ou de solicitação de amizade. (E)
+
+\item RF. 1.13: Notificações recebidas (E)
+\item \qquad O usuário será notificado nas seguintes condições:
+\item \qquad O usuário é notificado que recebeu uma mensegem de um determinado amigo.
+\item \qquad Atualização de conteúdo dos cursos.
+\item \qquad Novas solicitações de amizades.
+
+\item RF. 1.14: Encerramento de conta de usuário (E)
+\item \qquad O usuário pode encerrar sua conta na rede social.
 
 %RF. 2: Curso.
-\item RF. 2.1: Manter Aula. (E)
+\item RF. 2.1: Adicionar uma aula a um determinado curso. (E)
+\item \qquad As aulas podem ser adicionadas ao curso na forma de documentos textuais e/ou conteúdo de mídia, além de exercícios na forma de formularios.
 
-\item RF. 2.1: Exibir perfil do curso. (E)
+\item RF. 2.2: Exibir descrição do curso. (E)
+\item \qquad Será exibidas informações referentes ao curso, tais como: nome do curso, área de conhecimento, professor do curso, nota de avaliação do curso, lista de aulas.
 
 %RF. 3: Aula.
 
 %Mudaria o 3.1 e o 3.2 Anexar materiais das aulas e na descrição do requisito informar os tipos de materiais.
-\item RF. 3.1: Anexo Documentos de Texto. (E)
-
-\item RF. 3.2: Anexo de Elementos de Mídia. (E)
-
-\item RF. 3.3: Manter Exercicíos. (E)
-
-\item RF. 3.4: Exibir informação da Aula. (E)
+%\item RF. 3.1: Exibir informação da Aula. (E)
 
 \end{description}
 

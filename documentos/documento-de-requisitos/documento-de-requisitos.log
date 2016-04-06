@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.27)  5 APR 2016 16:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.27)  5 APR 2016 20:58
 entering extended mode
 **documento-de-requisitos.tex
 
@@ -366,46 +366,46 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 <figuras/figura1.png, id=12, 544.0325pt x 220.825pt>
 File: figuras/figura1.png Graphic file (type png)
  <use figuras/figura1.png>
-Package pdftex.def Info: figuras/figura1.png used on input line 76.
+Package pdftex.def Info: figuras/figura1.png used on input line 77.
 (pdftex.def)             Requested size: 380.82016pt x 154.57643pt.
 
 [2 <C:/Users/BRUNO/Documents/Ciência da Computação - UNESP/3º Ano/1º Semes
 tre/Engenharia de Software I/fctpp-es-learnstation/documentos/documento-de-requ
-isitos/figuras/figura1.png>] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+isitos/figuras/figura1.png>] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-[4]
+[5]
 ("C:\Users\BRUNO\Documents\Ciência da Computação - UNESP\3º Ano\1º Semestr
 e\Engenharia de Software I\fctpp-es-learnstation\documentos\documento-de-requis
 itos\documento-de-requisitos.aux") ) 
 Here is how much of TeX's memory you used:
  1697 strings out of 493921
  22180 string characters out of 3147282
- 76934 words of memory out of 3000000
+ 77934 words of memory out of 3000000
  5000 multiletter control sequences out of 15000+200000
  7894 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,24p,471b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,24p,546b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b>
-Output written on documento-de-requisitos.pdf (5 pages, 71528 bytes).
+Output written on documento-de-requisitos.pdf (6 pages, 73474 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
