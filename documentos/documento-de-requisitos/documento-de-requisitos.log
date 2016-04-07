@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.27)  5 APR 2016 20:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.27)  7 APR 2016 14:18
 entering extended mode
 **documento-de-requisitos.tex
 
@@ -372,17 +372,17 @@ Package pdftex.def Info: figuras/figura1.png used on input line 77.
 [2 <C:/Users/BRUNO/Documents/Ciência da Computação - UNESP/3º Ano/1º Semes
 tre/Engenharia de Software I/fctpp-es-learnstation/documentos/documento-de-requ
 isitos/figuras/figura1.png>] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
@@ -403,7 +403,7 @@ blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b>
-Output written on documento-de-requisitos.pdf (6 pages, 73474 bytes).
+Output written on documento-de-requisitos.pdf (6 pages, 74357 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
