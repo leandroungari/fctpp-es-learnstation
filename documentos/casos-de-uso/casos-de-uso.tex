@@ -40,58 +40,58 @@
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Inscrever Usuário} \\ \hline
+Caso de uso: & \textbf{Criar Conta de Usuário} \\ \hline
 Atores: & Usuário \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & O Usuário acessa a seção de cadastro fornecendo informações pessoais. Em seguida, os dados são validados e o cadastro concluído.
 
 %Requisito 1.1	
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Listar de Cursos e Pessoas} \\ \hline
+Caso de uso: & \textbf{Listar Cursos e Usuários} \\ \hline
 Atores: & Usuário \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário, em qualquer página do sistema, de forma textual realiza a pesquisa de um curso ou pessoa, possibilitando o uso de filtros entre curso, pessoa e ordem alfabética.
+Descrição: & O Usuário, por meio do mecanismo de pesquisa, de forma textual busca cursos ou usuários através de seus respectivos nome de usuário ou curso, e área de conhecimento para cursos. Desta forma, tendo acesso ao conteúdo do perfil do usuário ou curso buscado.
 
-%Requisito 1.1	
+%Requisito 1.2, 1.3, 1.6, 2.2
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Visualizar Perfis de Usuário} \\ \hline
+Caso de uso: & \textbf{Enviar Solicitação de Amizade} \\ \hline
 Atores: & Usuário \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & 
+Descrição: & O Usuário busca pelo referido usuário, em seguida acessa o perfil deste e envia uma solicitação de amizade.
+
+%Requisito 1.4
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Solicitar amizade} \\ \hline
+Caso de uso: & \textbf{Responder Solicitação} \\ \hline
 Atores: & Usuário \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & O Usuário após acessar sua conta, verifica a existência de uma notificação, a qual é uma solicitação de amizade, em seguida, se desejado o Usuário poderá confirmar, recusar ou ignorar.
+
+%Requisito 1.4, 1.13
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
@@ -99,85 +99,175 @@ Descrição: & O Usuário acessa a página de cadastro fornecendo o nome complet
 Caso de uso: & \textbf{Cancelar amizade} \\ \hline
 Atores: & Usuário \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & O Usuário realiza uma busca pelo referido amigo, ou acessa a lista de amizades, em seguida, visita o perfil do determinado amigo, efetua o cancelamento desta amizade.
+
+%Requisito 1.5
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
+
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Acessar cursos} \\ \hline
-Atores: & Usuário \\ \hline
+Caso de uso: & \textbf{Efetuar Inscrição em Curso} \\ \hline
+Atores: & Aluno \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & Após a realização da busca pelo referido curso e visualizar da descrição do curso, o Aluno realiza a inscrição neste curso.
+
+%Requisito 1.7
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Manter curso} \\ \hline
+Caso de uso: & \textbf{Cancelar Inscrição em Curso} \\ \hline
+Atores: & Aluno \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Aluno realiza uma busca pelo curso, ou acessa a lista de cursos em que está inscrito, em seguida, acessa a descrição deste e realiza o cancelamento da sua inscrição.
+
+%Requisito 1.8
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Criar Novo Curso} \\ \hline
 Atores: & Professor \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & O Professor acessa a seção de cadastro de curso, fornecendo as informações sobre o curso que será criado e finaliza a operação.
+
+%Requisito 1.9
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Matrícular em Curso} \\ \hline
+Caso de uso: & \textbf{Avaliar Curso} \\ \hline
 Atores: & Aluno \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & O Aluno inscrito no curso em questão acessa este por meio da sua lista de cursos inscritos, ou por meio da busca de cursos, em seguida, avalia este atribuindo uma nota.
+
+%Requisito 1.10
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Cancelar Matrícula em Curso} \\ \hline
-Atores: & Aluno \\ \hline
+Caso de uso: & \textbf{Enviar Mensagem para Amigo} \\ \hline
+Atores: & Remetente, Destinatário \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & O Usuário por meio de uma lista de amigos, selecione um referido amigo e envia mensagens textuais através de uma seção de conversa.
+
+%Requisito 1.12
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Avaliar curso} \\ \hline
-Atores: & Aluno \\ \hline
+Caso de uso: & \textbf{Receber Mensagem de Amigo} \\ \hline
+Atores: & Destinatário, Remetente \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & O Usuário acessa sua conta, verifica a existência de notificações, no caso, de recebimento de mensagens, em seguida, seleciona uma determinada notificação tendo acesso ao conteúdo da mensagem.
+
+%Requisito 1.12, 1.13
 \end{tabular}
 \end{center}
 \end{table}
 
-\newpage
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Criar Conversa Entre Usuários} \\ \hline
+Caso de uso: & \textbf{Encerrar Conta de Usuário} \\ \hline
 Atores: & Usuário \\ \hline
 Tipo: & Primário \\ \hline
-Descrição: & O Usuário acessa a página de cadastro fornecendo o nome completo, data de nascimento, gênero, e-mail, senha e país onde reside. Em seguida, os dados são validados e o cadastro concluído.
+Descrição: & O Usuário acessa sua conta, em seguida, solicita o cancelamento da sua conta fornecendo informação de segurança.
+
+%Requisito 1.14, 1.15
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Denunciar Conteúdo Inadequado} \\ \hline
+Atores: & Usuário, Curso \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Usuário ao acessar o perfil de um usuário ou a descrição de um curso, ao perceber a existência de conteúdo inadequado realizará, o usuário poderá denunciar ao administrador do sistema.
+
+%Requisito 1.16
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Adicionar Aula} \\ \hline
+Atores: & Professor \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Professor acessa a seção de administração de um curso, adiciona uma nova aula fornecendo seu respectivo conteúdo.
+
+%Requisito 2.1
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Listar Cursos e Usuários para Administração} \\ \hline
+Atores: & Administrador \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Administrador realiza uma consulta de contas de usuário, aulas ou cursos.
+
+%Requisito 3.1
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Remover Conteúdos Inadequados} \\ \hline
+Atores: & Administrador \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Administrador, após ser informado, de forma significativa, da existência de um conteúdo inadequado em um curso ou conta de usuário, o Administrador removerá a respectiva aula ou até a conta do usuário, e seus conteúdos relacionados.
+
+%Requisito 3.2
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Enviar Notificação de Advertência} \\ \hline
+Atores: & Administrador \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Administrador, após ser informado, de forma significativa, o Administrador envia uma notificação de advertência devido a algum comportamento.
+
+%Requisito 3.3
 \end{tabular}
 \end{center}
 \end{table}
