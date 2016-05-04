@@ -1,0 +1,298 @@
+\documentclass[12pt,a4paper,onecolumn,titlepage]{article}
+
+\usepackage[brazil]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\begin{document} %Inicio do documento
+
+\begin{titlepage} %Capa
+	
+	\vfill
+	\begin{center}
+	
+		{\large \textbf{Faculdade de Ciências e Tecnologia\\Universidade Estadual Paulista\\``Júlio de Mesquita Filho''}} \\[3cm]
+		{\large \textbf{Bruno Santos de Lima}}\\
+		{\large \textbf{Leandro Ungari Cayres}}\\[4cm]
+		{\Large Casos de Uso Expandido}\\
+		{\Large Sistema LearnStation}\\[4cm]
+
+	\hspace{.45\textwidth} %posiciona a minipage
+	\begin{minipage}{.5\textwidth}
+		\large Disciplina de Engenharia de Software I. Professor Dr. Rogério Eduardo Garcia.\\[0.5cm]
+	\end{minipage}
+
+	\vfill
+	\vspace{1.5cm}
+	
+	\large \textbf{Presidente Prudente\\}
+	\large \textbf{Abril - 2016}
+	
+	\end{center}
+	
+\end{titlepage}
+%Fim da capa
+
+%Conteúdo do documento
+\renewcommand{\baselinestretch}{1.1}
+%%%%%%%%%%%%%%%1
+
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Criar Conta de Usuário} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Capturar a inscrição de um novo usuário. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Usuário acessa a seção de cadastro fornecendo informações pessoais. Em seguida, os dados são validados e o cadastro concluído. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.1
+
+%Requisito 1.1	
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário acessa a seção de cadastro e fornece as suas informações pessoais. & \textbf{2.} Cada informação fornecida é validada. \\ \hline
+\textbf{3.} Por fim, o usuário confirma o seu cadastro. & \textbf{4.} A criação da conta de usuário é efetivada. \\ \hline
+\end{tabular}
+\end{center}
+
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%2
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Listar Cursos e Usuários} \\ \hline
+Finalidade: & Exibir uma lista contendo todos os usuários e/ou cursos correspondentes a uma dada entrada.\\ \hline
+Atores: & Usuário \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Usuário, por meio do mecanismo de pesquisa, de forma textual busca cursos ou usuários através de seus respectivos nome de usuário ou curso, e área de conhecimento para cursos. Desta forma, tendo acesso ao conteúdo do perfil do usuário ou curso buscado.\\ \hline
+Referências Cruzadas: & Requisitos: RF 1.2, RF 1.3, RF 1.6 e RF 2.2
+
+%Requisito 1.2, 1.3, 1.6, 2.2
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário busca o curso ou outro usuário desejado pelo respectivo nome. & \textbf{2.} Uma lista é exibida, separado por categorias, dos resultados compatíveis com a entrada fornecida. \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Sequências alternativas}
+Linha 2: Caso não sejam encontrados resultados compatíveis, um indicativo de nenhum resultado é mostrado.
+\newpage
+
+%%%%%%%%%%%%%%3
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Enviar Solicitação de Amizade} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Permitir a requsição de amizade entre usuários. \\ \hline
+Tipo: & Primário e Essencial \\ \hline
+Visão geral: & O Usuário busca pelo referido usuário, em seguida acessa o perfil deste e envia uma solicitação de amizade. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.4 \\ & Caso de uso: Listar Cursos e Usuários.
+%Requisito 1.4
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário seleciona o usuário específico. & \textbf{2.} O perfil do usuário é exibido. \\ \hline
+\textbf{3.} O Usuário realiza uma pedido de amizade. & \textbf{4.} Uma solicitação é enviada ao usuário correspondente. \\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+%%%%%%%%%%%%%%%4
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Responder Solicitação} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Possibilita a confirmação ou não do pedido de amizade. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Usuário após acessar sua conta, verifica a existência de uma notificação, a qual é uma solicitação de amizade, em seguida, se desejado o Usuário poderá confirmar, recusar ou ignorar.\\ \hline
+Referências Cruzadas: & Requisitos: RF 1.4 e RF 1.13 
+%Requisito 1.4, 1.13
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário acessa o seu perfil. & \textbf{2.} As solicitações de amizade referentes a este usuário são enviadas para o perfil. \\ \hline
+\textbf{3. } Para cada, o usuário pode aceitar, ignorar ou cancelar a solicitação. & \textbf{4.} Para cada usuário solicitante é enviada a resposta da solicitação conforme a escolha o usuário requisito. \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Sequência alternativa}
+Linha 4: Caso a solicitação de amizade seja ignorada, o usuário requisitante não receberá resposta.
+
+\newpage
+
+%%%%%%%%%5
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Cancelar amizade} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Permite desfazer a relação de amizade entre dois usuários. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Usuário realiza uma busca pelo referido amigo, ou acessa a lista de amizades, em seguida, visita o perfil do determinado amigo, efetua o cancelamento desta amizade. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.5 \\ & Caso de uso: Listar Cursos e Usuários.
+
+%Requisito 1.5
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário seleciona o usuário específico. & \textbf{2.} O perfil do usuário é exibido. \\ \hline
+\textbf{3.} O Usuário realiza o cancelamento da amizade. & \textbf{4.} A relação de amizade é removida do registro.\\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+
+
+%%%%%%%%%%6
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Efetuar Inscrição em Curso} \\ \hline
+Atores: & Aluno \\ \hline
+Finalidade: & Possibilita que o usuário se inscreva no curso de sua escolha. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & Após a realização da busca pelo referido curso e visualizar da descrição do curso, o Aluno realiza a inscrição neste curso. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.7 \\ & Caso de uso: Listar Cursos e Usuários.
+
+%Requisito 1.7
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário seleciona o curso específico. & \textbf{2.} A descrição do curso é exibida. \\ \hline
+\textbf{3.} O Usuário realiza a inscrição no curso. & \textbf{4.} Registra o curso na lista de cursos do usuário. \\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+
+%%%%%%%%%% 7
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Cancelar Inscrição em Curso} \\ \hline
+Atores: & Aluno \\ \hline
+Finalidade: & Permite o encerramento da inscrição do curso, bloqueando o acesso ao conteúdo deste. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Aluno realiza uma busca pelo curso, ou acessa a lista de cursos em que está inscrito, em seguida, acessa a descrição deste e realiza o cancelamento da sua inscrição. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.8 \\ & Caso de uso: Listar Cursos e Usuários.
+%Requisito 1.8
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário seleciona o curso específico. & \textbf{2.} A descrição do curso é exibida. \\ \hline
+\textbf{3.} O Usuário realiza o cancelamento da inscrição no curso. & \textbf{4.} O curso é removido da lista do usuário. \\ \hline
+\end{tabular}
+\end{center}
+
+
+\newpage
+
+
+%%%%%%%%%%%8
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Criar Novo Curso} \\ \hline
+Atores: & Professor \\ \hline
+Finalidade: & Permite que um professor disponibilize aulas sobre uma determinada temática. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Professor acessa a seção de cadastro de curso, fornecendo as informações sobre o curso que será criado e finaliza a operação. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.9
+
+%Requisito 1.9
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Professor acessa a seção de administração de curso. &  \\ \hline
+\textbf{2.} O Professor adiciona um novo curso com as informações relativas. & \textbf{3.} Essas informações são armazenadas e é requerida a confirmação. \\ \hline
+\textbf{4.} O Professor realiza a confirmação de novo curso. & \textbf{5.} O novo curso é registrado. \\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+
+\end{document} %Fim do documento
