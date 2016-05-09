@@ -27,7 +27,7 @@
 	\vspace{1.5cm}
 	
 	\large \textbf{Presidente Prudente\\}
-	\large \textbf{Maio - 2016}
+	\large \textbf{Abril - 2016}
 	
 	\end{center}
 	
@@ -35,276 +35,264 @@
 %Fim da capa
 
 %Conteúdo do documento
-\renewcommand{\baselinestretch}{1.5}
-%\def\arraystretch{1.1}
+\renewcommand{\baselinestretch}{1.1}
+%%%%%%%%%%%%%%%1
 
-\newpage
-
-%-------------------------------------------------------------------------------------------------------------
-%Avaliação de curso
+\section{Resumo}
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Avaliação de curso} \\ \hline
-Atores: & Aluno \\ \hline
-Finalidade: & Capturar a avaliação de um curso\\ \hline
-Tipo: & Essencial \\ \hline
-Visão geral: & O Aluno inscrito no curso em questão acessa este por meio da sua lista de cursos inscritos, ou por meio da busca de cursos, em seguida, avalia este atribuindo uma nota. \\ \hline
-Referências Cruzadas: & Requisitos: R1.6, R1.12\\
-
-%Requisito 1.12
-\end{tabular}
-\end{center}
-\end{table} 
-
-\begin{center}
-\def\arraystretch{1.1}
-\begin{tabular}{|p{6cm}|p{6cm}|}
-
-\hline
-\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
-\textbf{1.} Este caso de uso tem inicio quando o Aluno acessa a descrição de um determinado curso  & \textbf{2.} Exibe a descrição do curso para o Aluno  \\ \hline
-\textbf{3.} O Aluno acessa a seção de avaliação do curso em questão.  & \textbf{4.} Exibe a seção de avaliação do curso, descrevendo a nota atual deste curso e permitindo ao Aluno atibuir uma nota ao curso em questão  \\ \hline
-\textbf{5.} O Aluno atribui uma nota para o curso em questão  &   \\ \hline
-\textbf{6.} O Aluno finaliza a avaliação do curso  & \textbf{7.} A nota do Aluno é resgistada e é calculada um nova nota geral do curso avalidado \\ \hline
-\end{tabular}
-\end{center}
-
-\textbf{Sequências Alternativas:} N/A
-
-
-\newpage
-
-%-------------------------------------------------------------------------------------------------------------
-%Enviar mensagem para um amigo
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Enviar mensagem para um amigo} \\ \hline
-Atores: & Remetente, Destinatário \\ \hline
-Finalidade: & Registrar e enviar mensagem de um remetente para um destinatário\\ \hline
-Tipo: & Essencial \\ \hline
-Visão geral: & O Usuário por meio de uma lista de amigos, selecione um referido amigo e envia mensagens textuais através de uma seção de conversa. \\ \hline
-Referências Cruzadas: & Requisitos: R1.2, R1.12\\
-
-%Requisito 1.12
-\end{tabular}
-\end{center}
-\end{table} 
-
-\begin{center}
-\def\arraystretch{1.1}
-\begin{tabular}{|p{6cm}|p{6cm}|}
-
-\hline
-\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
-\textbf{1.} Este caso de uso tem inicio quando o Remetente seleciona um Destinatário em sua lista de amigos para iniciar uma conversa  &  \\ \hline
-\textbf{2.} O Remetente escreve a mensagem  &   \\ \hline
-\textbf{3.} O Remetente envia a mensagem para o Destinatário  &
-\textbf{4.} Envia a mensagem do Remetente e também envia uma notificação de uma nova mensagem recebida para o Destinatário \\ \hline
-\end{tabular}
-\end{center}
-
-\textbf{Sequências Alternativas:} N/A
-
-\newpage
-
-%-------------------------------------------------------------------------------------------------------------
-%Receber mensagem de um amigo
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Receber mensagem de um amigo} \\ \hline
-Atores: & Destinatário, Remetente \\ \hline
-Finalidade: & Notificar e encaminhar mensagem para o destinatário\\ \hline
-Tipo: & Essencial \\ \hline
-Visão geral: & O Usuário acessa sua conta, verifica a existência de notificações, no caso, de recebimento de mensagens, em seguida, seleciona uma determinada notificação tendo acesso ao conteúdo da mensagem. \\ \hline
-Referências Cruzadas: & Requisitos: R1.12, R1.13\\
-
-%Requisito 1.12, 1.13
-\end{tabular}
-\end{center}
-\end{table} 
-
-\begin{center}
-\def\arraystretch{1.1}
-\begin{tabular}{|p{6cm}|p{6cm}|}
-
-\hline
-\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
-\textbf{1.} Este caso de uso tem inicio quando o Destinatário verifica suas notificações de mensagens enviadas  &  \\ \hline
-\textbf{2.} O destinatário acessa o conteúdo desta mensagem  & 
-\textbf{3.} Informa ao destinatário o conteúdo da mensagem no qual ele recebeu \\ \hline
-\textbf{4.} Destinatário lê o conteúdo da mensagem recebida. & \\ \hline
-\end{tabular}
-\end{center}
-
-\textbf{Sequências Alternativas:} N/A
-
-\newpage
-
-%-------------------------------------------------------------------------------------------------------------
-%Encerrar conta de usuário
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Encerrar conta de usuário} \\ \hline
+Caso de uso: & \textbf{Criar Conta de Usuário} \\ \hline
 Atores: & Usuário \\ \hline
-Finalidade: & Finalizar e encerrar um conta de usuário\\ \hline
-Tipo: & Essencial \\ \hline
-Visão geral: & O Usuário acessa sua conta, em seguida, solicita o cancelamento da sua conta fornecendo informação de segurança. \\ \hline
-Referências Cruzadas: & Requisitos: R1.14, R1.15\\
+Finalidade: & Capturar a inscrição de um novo usuário. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Usuário acessa a seção de cadastro fornecendo informações pessoais. Em seguida, os dados são validados e o cadastro concluído. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.1
 
-%Requisito 1.14, 1.15
+%Requisito 1.1	
 \end{tabular}
 \end{center}
-\end{table} 
+\end{table}
 
+\subsection{Sequência típica de eventos}
 \begin{center}
 \def\arraystretch{1.1}
 \begin{tabular}{|p{6cm}|p{6cm}|}
 
 \hline
 \textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
-\textbf{1.} Este caso de uso tem inicio quando o Usuário acessa seu perfil e solicita a exclusão de sua conta  & \textbf{2.} Inicia o processo de exlcusão de conta de Usuário pedindo ao mesmo que confime o pedido de exclusão de conta \\ \hline
-\textbf{3.} O Usuário confirma o pedido de exclusão de conta  & \textbf{4.} Pede para o Usuário informar a senha da conta em questão  \\ \hline
-\textbf{5.} O Usuário informa a senha de sua conta  & \textbf{6.} Verifica se a senha está correta e exclui a conta do Usuário\\ \hline
+\textbf{1.} O Usuário acessa a seção de cadastro e fornece as suas informações pessoais. & \textbf{2.} Cada informação fornecida é validada. \\ \hline
+\textbf{3.} Por fim, o usuário confirma o seu cadastro. & \textbf{4.} A criação da conta de usuário é efetivada. \\ \hline
 \end{tabular}
 \end{center}
 
-\textbf{Sequências Alternativas:} \\
-\textbf{Linha 6:} Ao verificar que a senha fornecida pelo Usuário está incorreta, informa o mesmo sobre a senha incorreta e não exclui a conta do Usuário.
 
 \newpage
 
-%-------------------------------------------------------------------------------------------------------------
-%Denunciar Conteúdo Inadequado
+%%%%%%%%%%%%%%%%%%2
+\section{Resumo}
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Denunciar Conteúdo Inadequado} \\ \hline
-Atores: & Usuário, Curso \\ \hline
-Finalidade: & Permitir e registrar denuncia de conteúdo inadequado\\ \hline
-Tipo: & Essencial \\ \hline
-Visão geral: & O Usuário ao acessar o perfil de um usuário ou a descrição de um curso, ao perceber a existência de conteúdo inadequado realizará, o usuário poderá denunciar ao administrador do sistema. \\ \hline
-Referências Cruzadas: & Requisitos: R1.3, R1.16, R2.2\\
+Caso de uso: & \textbf{Listar Cursos e Usuários} \\ \hline
+Finalidade: & Exibir uma lista contendo todos os usuários e/ou cursos correspondentes a uma dada entrada.\\ \hline
+Atores: & Usuário \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Usuário, por meio do mecanismo de pesquisa, de forma textual busca cursos ou usuários através de seus respectivos nome de usuário ou curso, e área de conhecimento para cursos. Desta forma, tendo acesso ao conteúdo do perfil do usuário ou curso buscado.\\ \hline
+Referências Cruzadas: & Requisitos: RF 1.2, RF 1.3, RF 1.6 e RF 2.2
 
-%Requisito 1.16
+%Requisito 1.2, 1.3, 1.6, 2.2
 \end{tabular}
 \end{center}
-\end{table} 
+\end{table}
 
-
+\subsection{Sequência típica de eventos}
 \begin{center}
 \def\arraystretch{1.1}
 \begin{tabular}{|p{6cm}|p{6cm}|}
 
 \hline
 \textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
-\textbf{1.} Este caso de uso tem inicio quando o Usuário identifica um conteúdo inadequado & \\ \hline
-\textbf{2.} O Usuário faz a denuncia do conteúdo  & \textbf{3.} Pede para o Usuário a categoria e a descrição sobre o conteúdo inadequado  \\ \hline
-\textbf{4.} O Usuário informa a categoria e a descrição do conteúdo inadequado & \\ \hline
-\textbf{5.} O Usuário envia a denuncia do conteúdo Inadequado & \textbf{6} Regrista a denuncia \\ \hline
+\textbf{1.} O Usuário busca o curso ou outro usuário desejado pelo respectivo nome. & \textbf{2.} Uma lista é exibida, separado por categorias, dos resultados compatíveis com a entrada fornecida. \\ \hline
 \end{tabular}
 \end{center}
 
-\textbf{Sequências Alternativas:} N/A
-
+\subsection{Sequências alternativas}
+Linha 2: Caso não sejam encontrados resultados compatíveis, um indicativo de nenhum resultado é mostrado.
 \newpage
 
-%-------------------------------------------------------------------------------------------------------------
-%Adicionar Aula
+%%%%%%%%%%%%%%3
+\section{Resumo}
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Adicionar Aula} \\ \hline
+Caso de uso: & \textbf{Enviar Solicitação de Amizade} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Permitir a requsição de amizade entre usuários. \\ \hline
+Tipo: & Primário e Essencial \\ \hline
+Visão geral: & O Usuário busca pelo referido usuário, em seguida acessa o perfil deste e envia uma solicitação de amizade. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.4 \\ & Caso de uso: Listar Cursos e Usuários.
+%Requisito 1.4
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário seleciona o usuário específico. & \textbf{2.} O perfil do usuário é exibido. \\ \hline
+\textbf{3.} O Usuário realiza uma pedido de amizade. & \textbf{4.} Uma solicitação é enviada ao usuário correspondente. \\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+%%%%%%%%%%%%%%%4
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Responder Solicitação} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Possibilita a confirmação ou não do pedido de amizade. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Usuário após acessar sua conta, verifica a existência de uma notificação, a qual é uma solicitação de amizade, em seguida, se desejado o Usuário poderá confirmar, recusar ou ignorar.\\ \hline
+Referências Cruzadas: & Requisitos: RF 1.4 e RF 1.13 
+%Requisito 1.4, 1.13
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário acessa o seu perfil. & \textbf{2.} As solicitações de amizade referentes a este usuário são enviadas para o perfil. \\ \hline
+\textbf{3. } Para cada, o usuário pode aceitar, ignorar ou cancelar a solicitação. & \textbf{4.} Para cada usuário solicitante é enviada a resposta da solicitação conforme a escolha o usuário requisito. \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Sequência alternativa}
+Linha 4: Caso a solicitação de amizade seja ignorada, o usuário requisitante não receberá resposta.
+
+\newpage
+
+%%%%%%%%%5
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Cancelar amizade} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Permite desfazer a relação de amizade entre dois usuários. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Usuário realiza uma busca pelo referido amigo, ou acessa a lista de amizades, em seguida, visita o perfil do determinado amigo, efetua o cancelamento desta amizade. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.5 \\ & Caso de uso: Listar Cursos e Usuários.
+
+%Requisito 1.5
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário seleciona o usuário específico. & \textbf{2.} O perfil do usuário é exibido. \\ \hline
+\textbf{3.} O Usuário realiza o cancelamento da amizade. & \textbf{4.} A relação de amizade é removida do registro.\\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+
+
+%%%%%%%%%%6
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Efetuar Inscrição em Curso} \\ \hline
+Atores: & Aluno \\ \hline
+Finalidade: & Possibilita que o usuário se inscreva no curso de sua escolha. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & Após a realização da busca pelo referido curso e visualizar da descrição do curso, o Aluno realiza a inscrição neste curso. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.7 \\ & Caso de uso: Listar Cursos e Usuários.
+
+%Requisito 1.7
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário seleciona o curso específico. & \textbf{2.} A descrição do curso é exibida. \\ \hline
+\textbf{3.} O Usuário realiza a inscrição no curso. & \textbf{4.} Registra o curso na lista de cursos do usuário. \\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+
+%%%%%%%%%% 7
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Cancelar Inscrição em Curso} \\ \hline
+Atores: & Aluno \\ \hline
+Finalidade: & Permite o encerramento da inscrição do curso, bloqueando o acesso ao conteúdo deste. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Aluno realiza uma busca pelo curso, ou acessa a lista de cursos em que está inscrito, em seguida, acessa a descrição deste e realiza o cancelamento da sua inscrição. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.8 \\ & Caso de uso: Listar Cursos e Usuários.
+%Requisito 1.8
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Sequência típica de eventos}
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário seleciona o curso específico. & \textbf{2.} A descrição do curso é exibida. \\ \hline
+\textbf{3.} O Usuário realiza o cancelamento da inscrição no curso. & \textbf{4.} O curso é removido da lista do usuário. \\ \hline
+\end{tabular}
+\end{center}
+
+
+\newpage
+
+
+%%%%%%%%%%%8
+\section{Resumo}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Criar Novo Curso} \\ \hline
 Atores: & Professor \\ \hline
-Finalidade: & Registrar nova aula inserida por um professor em um determinado curso\\ \hline
-Tipo: & Essencial \\ \hline
-Visão geral: & O Professor acessa a seção de administração de um curso, adiciona uma nova aula fornecendo seu respectivo conteúdo. \\ \hline
-Referências Cruzadas: & Requisitos: R2.1, R2.2\\
+Finalidade: & Permite que um professor disponibilize aulas sobre uma determinada temática. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Professor acessa a seção de cadastro de curso, fornecendo as informações sobre o curso que será criado e finaliza a operação. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.9
 
-%Requisito 2.1
-\end{tabular}
-\end{center}
-\end{table} 
-
-\begin{center}
-\def\arraystretch{1.1}
-\begin{tabular}{|p{6cm}|p{6cm}|}
-
-\hline
-\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
-\textbf{1.} Este caso de uso tem inicio quando o Professor acessa a seção de administração do curso em questão  & \\ \hline
-\textbf{2.} O Professor adiciona uma nova aula  & \textbf{3.} Recebe a aula e pede para o Professor confirmar a inserção da mesma  \\ \hline
-\textbf{4.} O Professor confirma a inserção da aula  & \textbf{5.} Adiciona a nova aula ao curso\\ \hline
-\end{tabular}
-\end{center}
-
-\textbf{Sequências Alternativas:} N/A
-
-\newpage
-
-%-------------------------------------------------------------------------------------------------------------
-%Remover Conteúdos Inadequados
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Remover Conteúdos Inadequados} \\ \hline
-Atores: & Administrador \\ \hline
-Finalidade: & Retirar conteúdos inadequados ou impróprios\\ \hline
-Tipo: & Essencial \\ \hline
-Visão geral: & O Administrador, após ser informado, de forma significativa, da existência de um conteúdo inadequado em um curso ou conta de usuário, o Administrador removerá a respectiva aula ou até a conta do usuário, e seus conteúdos relacionados. \\ \hline
-Referências Cruzadas: & Requisitos: R3.1, R3.2\\ 
-
-%Requisito 3.2
+%Requisito 1.9
 \end{tabular}
 \end{center}
 \end{table}
 
+
+\subsection{Sequência típica de eventos}
 \begin{center}
 \def\arraystretch{1.1}
 \begin{tabular}{|p{6cm}|p{6cm}|}
 
 \hline
 \textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
-\textbf{1.} Este caso de uso tem inicio quando o Administrador identifica conteúdos inadequados  & \\ \hline
-\textbf{2.} O Administrador remove o conteúdo inadequado  & \textbf{3.} Remove o conteúdo em questão  \\ \hline
+\textbf{1.} O Professor acessa a seção de administração de curso. &  \\ \hline
+\textbf{2.} O Professor adiciona um novo curso com as informações relativas. & \textbf{3.} Essas informações são armazenadas e é requerida a confirmação. \\ \hline
+\textbf{4.} O Professor realiza a confirmação de novo curso. & \textbf{5.} O novo curso é registrado. \\ \hline
 \end{tabular}
 \end{center}
-
-\textbf{Sequências Alternativas:} N/A
 
 \newpage
 
-%-------------------------------------------------------------------------------------------------------------
-%Enviar Notificação de Advertência
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{p{2.5cm} p{9.5cm}}
-Caso de uso: & \textbf{Enviar Notificação de Advertência} \\ \hline
-Atores: & Administrador \\ \hline
-Finalidade: & Informar a um usuário que determinado conteúdo do mesmo é inadequado.\\ \hline
-Tipo: & Essencial \\ \hline
-Visão geral: & O Administrador, após ser informado, de forma significativa, que ocorreu um comportamento inadequado por parte de algum usuário, envia uma notificação de advertência para este último. \\ \hline
-Referências Cruzadas: & Requisitos: R3.3\\ 
-
-%Requisito 3.3
-\end{tabular}
-\end{center}
-\end{table}
-
-\begin{center}
-\def\arraystretch{1.1}
-\begin{tabular}{|p{6cm}|p{6cm}|}
-
-\hline
-\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
-\textbf{1.} Este caso de uso tem inicio quando o Administrador identifica possiveis conteúdos inadequados adicionados por um Usuário  & \\ \hline
-\textbf{2.} O Administrador envia uma notificação de advertência para o Usuário que adicionou o conteúdo inadequado  & \textbf{3.} Envia notificação para o Usuário \\ \hline
-\end{tabular}
-\end{center}
-
-\textbf{Sequências Alternativas:} N/A
 
 \end{document} %Fim do documento
