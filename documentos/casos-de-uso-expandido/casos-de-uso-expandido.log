@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.14)  3 MAY 2016 21:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.14)  9 MAY 2016 10:00
 entering extended mode
 **casos-de-uso-expandido.tex
 
@@ -358,58 +358,113 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 []\OT1/cmr/m/n/12 Refer^encias
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 []\OT1/cmr/m/n/12 Refer^encias
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
 []\OT1/cmr/m/n/12 Refer^encias
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []\OT1/cmr/m/n/12 Refer^encias
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 []\OT1/cmr/m/n/12 Refer^encias
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []\OT1/cmr/m/n/12 Refer^encias
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 []\OT1/cmr/m/n/12 Refer^encias
  []
 
 [8]
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]\OT1/cmr/m/n/12 Refer^encias
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]\OT1/cmr/m/n/12 Refer^encias
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]\OT1/cmr/m/n/12 Refer^encias
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 394--394
+[]\OT1/cmr/bx/n/12 2. \OT1/cmr/m/n/12 O des-ti-natario acessa o
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+[]\OT1/cmr/m/n/12 Refer^encias
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+[]\OT1/cmr/m/n/12 Refer^encias
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
+[]\OT1/cmr/m/n/12 Refer^encias
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+[]\OT1/cmr/m/n/12 Refer^encias
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 530--530
+[]\OT1/cmr/bx/n/12 3. \OT1/cmr/m/n/12 Re-move o conteudo em
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 548--548
+[]\OT1/cmr/m/n/12 Refer^encias
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 562--562
+[]\OT1/cmr/bx/n/12 3. \OT1/cmr/m/n/12 En-via no-ti-ficac~ao para o
+ []
+
+[16]
 (D:\Documentos\fctpp-es-learnstation\documentos\casos-de-uso-expandido\casos-de
 -uso-expandido.aux) ) 
 Here is how much of TeX's memory you used:
- 1669 strings out of 493921
- 21335 string characters out of 3144876
+ 1668 strings out of 493921
+ 21317 string characters out of 3144876
  76890 words of memory out of 3000000
- 4978 multiletter control sequences out of 15000+200000
- 7894 words of font info for 28 fonts, out of 3000000 for 9000
+ 4977 multiletter control sequences out of 15000+200000
+ 7587 words of font info for 27 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,10n,24p,324b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,10n,24p,324b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmr17.pfb>
-Output written on casos-de-uso-expandido.pdf (9 pages, 60379 bytes).
+Output written on casos-de-uso-expandido.pdf (17 pages, 73011 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
