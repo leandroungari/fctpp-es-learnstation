@@ -70,6 +70,64 @@ Referências Cruzadas: & Requisito: RF 1.1
 
 \newpage
 
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Iniciar sessão de usuário} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Permitir o acesso à conta do respectivo usuário. \\ \hline
+Tipo: & Primário e Essencial \\ \hline
+Visão geral: & O Usuário acessa a seção de entrada do sistema, fornece os dados de entrada que são validados pelo sistema e em seguida tem acesso ao seu perfil. \\ \hline
+Referências Cruzadas: & RF. 1.17
+
+%Requisito 1.17	
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário acessa a seção de entrada e fornece as suas informações pessoais. & \textbf{2.} Cada informação fornecida é validada. \\ \hline
+ & \textbf{3.} O Uusuário é direcionado ao seu perfil. \\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Sequências Alternativas:} N/A
+
+\newpage
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Finalizar sessão de usuário} \\ \hline
+Atores: & Usuário \\ \hline
+Finalidade: & Permitir finalizar a sessão da conta do respectivo usuário. \\ \hline
+Tipo: & Primário e Essencial \\ \hline
+Visão geral: & O Usuário dentro do sistema, pode aciona a finalização de sua sessão através de qualquer página. \\ \hline
+Referências Cruzadas: & RF. 1.17
+
+%Requisito 1.17	
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Usuário requisita a finalização de sua sessão. & \textbf{2.} A conta é finalizada e redireciona-se para outra página de acesso. \\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Sequências Alternativas:} N/A
+
+\newpage
 %%%%%%%%%%%%%%%%%%2
 
 
@@ -306,7 +364,7 @@ Referências Cruzadas: & Requisito: RF 1.9
 Caso de uso: & \textbf{Avaliação de curso} \\ \hline
 Atores: & Aluno \\ \hline
 Finalidade: & Capturar a avaliação de um curso\\ \hline
-Tipo: & Essencial \\ \hline
+Tipo: & Primário e Essencial \\ \hline
 Visão geral: & O Aluno inscrito no curso em questão acessa este por meio da sua lista de cursos inscritos, ou por meio da busca de cursos, em seguida, avalia este atribuindo uma nota. \\ \hline
 Referências Cruzadas: & Requisitos: R1.6, R1.12\\
 
@@ -341,7 +399,7 @@ Referências Cruzadas: & Requisitos: R1.6, R1.12\\
 Caso de uso: & \textbf{Enviar mensagem para um amigo} \\ \hline
 Atores: & Remetente, Destinatário \\ \hline
 Finalidade: & Registrar e enviar mensagem de um remetente para um destinatário\\ \hline
-Tipo: & Essencial \\ \hline
+Tipo: & Primário e Essencial \\ \hline
 Visão geral: & O Usuário por meio de uma lista de amigos, selecione um referido amigo e envia mensagens textuais através de uma seção de conversa. \\ \hline
 Referências Cruzadas: & Requisitos: R1.2, R1.12\\
 
@@ -375,7 +433,7 @@ Referências Cruzadas: & Requisitos: R1.2, R1.12\\
 Caso de uso: & \textbf{Receber mensagem de um amigo} \\ \hline
 Atores: & Destinatário, Remetente \\ \hline
 Finalidade: & Notificar e encaminhar mensagem para o destinatário\\ \hline
-Tipo: & Essencial \\ \hline
+Tipo: & Primário e Essencial \\ \hline
 Visão geral: & O Usuário acessa sua conta, verifica a existência de notificações, no caso, de recebimento de mensagens, em seguida, seleciona uma determinada notificação tendo acesso ao conteúdo da mensagem. \\ \hline
 Referências Cruzadas: & Requisitos: R1.12, R1.13\\
 
@@ -409,7 +467,7 @@ Referências Cruzadas: & Requisitos: R1.12, R1.13\\
 Caso de uso: & \textbf{Encerrar conta de usuário} \\ \hline
 Atores: & Usuário \\ \hline
 Finalidade: & Finalizar e encerrar um conta de usuário\\ \hline
-Tipo: & Essencial \\ \hline
+Tipo: & Primário e Essencial \\ \hline
 Visão geral: & O Usuário acessa sua conta, em seguida, solicita o cancelamento da sua conta fornecendo informação de segurança. \\ \hline
 Referências Cruzadas: & Requisitos: R1.14, R1.15\\
 
@@ -441,9 +499,9 @@ Referências Cruzadas: & Requisitos: R1.14, R1.15\\
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
 Caso de uso: & \textbf{Denunciar Conteúdo Inadequado} \\ \hline
-Atores: & Usuário, Curso \\ \hline
+Atores: & Usuário \\ \hline
 Finalidade: & Permitir e registrar denuncia de conteúdo inadequado\\ \hline
-Tipo: & Essencial \\ \hline
+Tipo: & Primário e Essencial \\ \hline
 Visão geral: & O Usuário ao acessar o perfil de um usuário ou a descrição de um curso, ao perceber a existência de conteúdo inadequado realizará, o usuário poderá denunciar ao administrador do sistema. \\ \hline
 Referências Cruzadas: & Requisitos: R1.3, R1.16, R2.2\\
 
@@ -478,7 +536,7 @@ Referências Cruzadas: & Requisitos: R1.3, R1.16, R2.2\\
 Caso de uso: & \textbf{Adicionar Aula} \\ \hline
 Atores: & Professor \\ \hline
 Finalidade: & Registrar nova aula inserida por um professor em um determinado curso\\ \hline
-Tipo: & Essencial \\ \hline
+Tipo: & Primário e Essencial \\ \hline
 Visão geral: & O Professor acessa a seção de administração de um curso, adiciona uma nova aula fornecendo seu respectivo conteúdo. \\ \hline
 Referências Cruzadas: & Requisitos: R2.1, R2.2\\
 
@@ -511,7 +569,7 @@ Referências Cruzadas: & Requisitos: R2.1, R2.2\\
 Caso de uso: & \textbf{Remover Conteúdos Inadequados} \\ \hline
 Atores: & Administrador \\ \hline
 Finalidade: & Retirar conteúdos inadequados ou impróprios\\ \hline
-Tipo: & Essencial \\ \hline
+Tipo: & Primário e Essencial \\ \hline
 Visão geral: & O Administrador, após ser informado, de forma significativa, da existência de um conteúdo inadequado em um curso ou conta de usuário, o Administrador removerá a respectiva aula ou até a conta do usuário, e seus conteúdos relacionados. \\ \hline
 Referências Cruzadas: & Requisitos: R3.1, R3.2\\ 
 
@@ -543,9 +601,9 @@ Referências Cruzadas: & Requisitos: R3.1, R3.2\\
 Caso de uso: & \textbf{Enviar Notificação de Advertência} \\ \hline
 Atores: & Administrador \\ \hline
 Finalidade: & Informar a um usuário que determinado conteúdo do mesmo é inadequado.\\ \hline
-Tipo: & Essencial \\ \hline
+Tipo: & Primário e Essencial \\ \hline
 Visão geral: & O Administrador, após ser informado, de forma significativa, que ocorreu um comportamento inadequado por parte de algum usuário, envia uma notificação de advertência para este último. \\ \hline
-Referências Cruzadas: & Requisitos: R3.3\\ 
+Referências Cruzadas: & Requisitos: RF 3.3\\ 
 
 %Requisito 3.3
 \end{tabular}
@@ -560,6 +618,96 @@ Referências Cruzadas: & Requisitos: R3.3\\
 \textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
 \textbf{1.} Este caso de uso tem inicio quando o Administrador identifica possiveis conteúdos inadequados adicionados por um Usuário  & \\ \hline
 \textbf{2.} O Administrador envia uma notificação de advertência para o Usuário que adicionou o conteúdo inadequado  & \textbf{3.} Envia notificação para o Usuário \\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Sequências Alternativas:} N/A
+
+\newpage
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Acessar conteúdo de uma aula} \\ \hline
+Atores: & Aluno \\ \hline
+Finalidade: & Permite o acesso ao conteúdo de uma aula de um determinado curso. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Aluno, após acessar a descrição do curso, seleciona-se a aula desejada e assim tem-se acesso ao seu respectivo conteúdo. \\ \hline
+Referências Cruzadas: & Requisito: RF 1.18 
+
+%Requisito 1.8
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Aluno acessa a descrição do curso que contém a aula.  & \textbf{2.} Todas as aulas são listadas.\\ \hline
+\textbf{3.} O Aluno seleciona a respectiva aula.  & \textbf{4.} O conteúdo da aula é exibido. \\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Sequências Alternativas:} \\
+\textbf{Linha 3:} Caso a aula desejada não esteja disponível, o aluno não poderá selecioná-la.
+
+\newpage
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Remover aula} \\ \hline
+Atores: & Professor \\ \hline
+Finalidade: & Possibilita a remoção de uma aula indesejada. \\ \hline
+Tipo: & Primário e Essencial\\ \hline
+Visão geral: & O Professor, após acessar a seção de administração do curso, seleciona a correspondente aula e a removê, deixando de fazer. \\ \hline
+Referências Cruzadas: & Requisito: RF 2.3
+
+%Requisito 2.3
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Professor acessa a lista de aulas do curso e seleciona aquela a ser removida.  &  \textbf{2.} A aula é removida e uma confirmação é devolvida ao professor.\\ \hline
+
+\end{tabular}
+\end{center}
+
+\textbf{Sequências Alternativas:} N/A
+
+\newpage
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Receber denúncia de usuário} \\ \hline
+Atores: & Administrador \\ \hline
+Finalidade: & Permite receber as denúncias de conteúdos inadequados dos usuários. \\ \hline
+Tipo: & Primário e Essencial \\ \hline
+Visão geral: & O Administrador, em seu perfil, recebe notificações de outros usuários, nas quais contém denúncias sobre conteúdos inadequados disponibilizados por outros usuários.
+
+%Requisito 3.4
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{center}
+\def\arraystretch{1.1}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+
+\hline
+\textbf{Ação do Ator} & \textbf{Resposta do Sistema} \\ \hline
+\textbf{1.} O Administrador acessa o seu perfil.  & \\ \hline
+\textbf{2.} Caso haja a presença de denúncias cada situação é analisada e suas respectivas consequências.  & \\ \hline 
 \end{tabular}
 \end{center}
 

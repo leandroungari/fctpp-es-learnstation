@@ -50,6 +50,34 @@ Descrição: & O Usuário acessa a seção de cadastro fornecendo informações 
 \end{center}
 \end{table}
 
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Iniciar sessão de usuário} \\ \hline
+Atores: & Usuário \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Usuário acessa a seção de entrada do sistema, fornece os dados de entrada que são validados pelo sistema e em seguida tem acesso ao seu perfil.
+
+%Requisito 1.17	
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Finalizar sessão de usuário} \\ \hline
+Atores: & Usuário \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Usuário dentro do sistema, pode aciona a finalização de sua sessão através de qualquer página.
+
+%Requisito 1.17	
+\end{tabular}
+\end{center}
+\end{table}
+
+\clearpage
 
 \begin{table}[h!]
 \begin{center}
@@ -78,6 +106,7 @@ Descrição: & O Usuário busca pelo referido usuário, em seguida acessa o perf
 \end{center}
 \end{table}
 
+\clearpage
 
 \begin{table}[h!]
 \begin{center}
@@ -210,7 +239,7 @@ Descrição: & O Usuário acessa sua conta, em seguida, solicita o cancelamento 
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
 Caso de uso: & \textbf{Denunciar Conteúdo Inadequado} \\ \hline
-Atores: & Usuário, Curso \\ \hline
+Atores: & Usuário \\ \hline
 Tipo: & Primário \\ \hline
 Descrição: & O Usuário ao acessar o perfil de um usuário ou a descrição de um curso, ao perceber a existência de conteúdo inadequado realizará, o usuário poderá denunciar ao administrador do sistema.
 
@@ -246,6 +275,7 @@ Descrição: & O Administrador realiza uma consulta de contas de usuário, aulas
 \end{center}
 \end{table}
 
+
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{p{2.5cm} p{9.5cm}}
@@ -268,6 +298,49 @@ Tipo: & Primário \\ \hline
 Descrição: & O Administrador, após ser informado, de forma significativa, o Administrador envia uma notificação de advertência devido a algum comportamento.
 
 %Requisito 3.3
+\end{tabular}
+\end{center}
+\end{table}
+
+%acessar conteudo de uma aula 1.18
+%remover uma aula de um determinado curso 2.3
+%receber denuncias de usuário 3.4
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Acessar conteúdo de uma aula} \\ \hline
+Atores: & Aluno \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Aluno, após acessar a descrição do curso, seleciona-se a aula desejada e assim tem-se acesso ao seu respectivo conteúdo.
+
+%Requisito 1.18
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Remover aula} \\ \hline
+Atores: & Professor \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Professor, após acessar a seção de administração do curso, seleciona a correspondente aula e a removê, deixando de fazer.
+
+%Requisito 2.3
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{p{2.5cm} p{9.5cm}}
+Caso de uso: & \textbf{Receber denúncia de usuário} \\ \hline
+Atores: & Administrador \\ \hline
+Tipo: & Primário \\ \hline
+Descrição: & O Administrador, em seu perfil, recebe notificações de outros usuários, nas quais contém denúncias sobre conteúdos inadequados disponibilizados por outros usuários.
+
+%Requisito 3.4
 \end{tabular}
 \end{center}
 \end{table}
