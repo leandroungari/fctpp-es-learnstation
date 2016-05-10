@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.27)  9 MAY 2016 19:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.27)  10 MAY 2016 20:31
 entering extended mode
 **documento-de-requisitos.tex
 
@@ -386,12 +386,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-
+[6]
 ("C:\Users\BRUNO\Documents\Ciência da Computação - UNESP\3º Ano\1º Semestr
 e\Engenharia de Software I\fctpp-es-learnstation\documentos\documento-de-requis
 itos\documento-de-requisitos.toc")
 \tf@toc=\write3
- [6] [7]
+ [7]
 ("C:\Users\BRUNO\Documents\Ciência da Computação - UNESP\3º Ano\1º Semestr
 e\Engenharia de Software I\fctpp-es-learnstation\documentos\documento-de-requis
 itos\documento-de-requisitos.aux") ) 
@@ -408,7 +408,7 @@ blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b>
-Output written on documento-de-requisitos.pdf (8 pages, 77270 bytes).
+Output written on documento-de-requisitos.pdf (8 pages, 77278 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
