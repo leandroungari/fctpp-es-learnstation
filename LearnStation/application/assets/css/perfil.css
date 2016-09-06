@@ -30,6 +30,11 @@
 	line-height: inherit;
 }
 
+.header-element-field > form > input{
+	position: absolute;
+	top: -9px; left: 300px;
+}
+
 .header-element-title{
 	position: relative;
 	display: flex;

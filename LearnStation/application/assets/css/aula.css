@@ -9,6 +9,10 @@
 	font-family: OpenSans;
 	src: url("fonts/OpenSans.woff");
 }
+.header-element-field > form > input{
+	position: absolute;
+	top: -9px; left: 300px;
+}
 
 .header-box{     
 	position: relative;     
@@ -17,6 +21,9 @@
 	width: 94%; height: 50px;     
 	line-height: 50px;
 	background: #000;
+}
+video{
+	box-shadow: 0 0 5px #ddd;
 }
 
 [class*="header-element"]{

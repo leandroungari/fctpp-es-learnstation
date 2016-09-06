@@ -10,6 +10,11 @@
 	src: url("fonts/OpenSans.woff");
 }
 
+.header-element-field > form > input{
+	position: absolute;
+	top: -9px; left: 300px;
+}
+
 .header-box{     
 	position: relative;     
 	display: block;     

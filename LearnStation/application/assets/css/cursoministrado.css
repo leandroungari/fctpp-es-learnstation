@@ -19,6 +19,11 @@
 	background: #000;
 }
 
+.header-element-field > form > input{
+	position: absolute;
+	top: -9px; left: 300px;
+}
+
 [class*="header-element"]{
 	display: inline;
 	width: auto; height: inherit;

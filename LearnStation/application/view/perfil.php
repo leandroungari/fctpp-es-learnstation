@@ -10,6 +10,7 @@
 <body>
 	<header class="header-box">
 		<div class="header-element-title">LearnStation</div>
+		<div class="header-element-field"><form action=""><input type="text"/></form></div>
 	</header>
 	<section>
 		<div class="info">
@@ -31,6 +32,7 @@
 		</div>
 		<div class="listagem">
 			<header>Cursos Ministrados</header>
+			<div class="form-element-button" title="Novo Curso">+</div>
 			<div class="listagem-curso cm">Algoritmos e Técnicas de Programação</div>
 			<div class="listagem-curso cm">Teoria de Grafos</div>
 			<div class="listagem-curso cm">Estrutura de Dados I: Básico</div>

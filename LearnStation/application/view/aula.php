@@ -10,6 +10,7 @@
 <body>
 	<header class="header-box">
 		<div class="header-element-title">LearnStation</div>
+		<div class="header-element-field"><form action=""><input type="text"/></form></div>
 	</header>
 	<section>
 		<div class="curso">
@@ -22,8 +23,8 @@
 			<div class="media">
 			<br><br>
 				<header>Vídeo</header>
-				<video width="600" height="400" autoplay="off" controls>
-	  				<source src="<?php echo $assets['video']?>movie.mp4" type="video/mp4">
+				<video width="600" height="400" controls>
+	  				<source src="<?php echo $assets['video']?>flash.mp4" type="video/mp4">
 	  				
 					Your browser does not support the video tag.
 				</video>

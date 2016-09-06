@@ -10,6 +10,7 @@
 <body>
 	<header class="header-box">
 		<div class="header-element-title">LearnStation</div>
+		<div class="header-element-field"><form action=""><input type="text"/></form></div>
 	</header>
 	<section>
 		<div class="curso">
