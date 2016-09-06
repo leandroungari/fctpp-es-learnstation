@@ -20,4 +20,6 @@
 
 	$assets["script"] = "../".$project["folder_name"]."application/assets/js/";
 
+	$assets["video"] = "../".$project["folder_name"]."application/assets/css/video/";
+
 
