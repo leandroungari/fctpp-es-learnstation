@@ -23,6 +23,9 @@
 				<p>País: <span>Brasil</span></p>
 				<p>Descrição: <span>Graduando em Engenharia Mecatrônica pela UFTPR - Apucarana/PR</span></p>
 			</div>
+			<div class="form-element-button extra" title="Cancelar amizade">-</div>
+			<div class="form-element-button extra" title="Solicitar amizade">+</div>
+			
 		</div>
 		<div class="listagem">
 			<header>Cursos Participados</header>
