@@ -15,7 +15,6 @@
 		public function adicionarAula($nomeAula, $descricao, $conteudo){
 
 			session_start();
-
 			$prof = $_SESSION['controladorUsuario']->getProfessorAtual();
 			$aula = $prof->novaAula($nomeAula, $descricao, $conteudo);
 			$this->atribuirAula($aula, $cursoAtual);
@@ -56,6 +55,18 @@
 				$prof->atribuirAutoria($curso);
 				$this->registrarCurso($curso);
 			}
+		}
+
+		public function efetuarInscricaoCurso(){
+
+			session_start();
+			$aluno = $_SESSION['controladorUsuario']->getUsuarioAtual();
+			$this->registrarAlunoCurso($aluno,$this->cursoAtual)
+		}
+
+		public function listarCursos($nomeCurso){
+
+			$cursos = $this->buscarCursos($nomeCurso);
 		}
 
 		///////////////////////////////////////

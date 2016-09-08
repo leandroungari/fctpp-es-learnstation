@@ -26,8 +26,70 @@
 			$_SESSION['controladorDenuncia']->registrarDenuncia($denuncia);
 		}
 
+		public function encerrarContaUsuario(){
 
+			$senha = $this->usuarioAtual->recuperarSenha();
+			if($this->verificarSenha()){
+				$this->encerrarConta($this->usuarioAtual);
+			}
+		}
 
+		public function enviarMensagemAmigo($mensagem){
+			
+			$this->usuarioAtual = $this->getUsuarioAtual();
+			$amigo = $this->buscarUsuario();
+			$this->enviarMensagemAmigo($this->usuarioAtual, $amigo, $mensagem);
+			$this->enviarNotificacaoMensagem($amigo, $this->usuarioAtual);
+		}
+
+		public function enviarSolicitacaoAmizade($nomeUsuario){
+
+			$amigo = $this->buscarUsuario($nomeUsuario);
+			$this->efetuarAmizade($this->usuarioAtual, $amigo);
+		}
+
+		public function finalizarSessaoUsuario(){
+
+			$this->logout($this->usuarioAtual);
+		}
+
+		public function iniciarSessaoUsuario($email, $senha){
+
+			if($this->validarLogin($email, $senha)){
+
+				$usuario = $this->criar($email, $senha);
+				$this->login($usuario);
+			}
+		}
+
+		public function listarUsuarios($nomeUsuario){
+			
+			$usuarios = $this->buscarUsuarios($nomeUsuario);
+		}
+
+		public function receberMensagemAmigo($nomeUsuario){
+
+			$amigo = $this->buscarUsuario($nomeUsuario);
+			$mensagem = $this->receberMensagem($this->usuarioAtual, $amigo);
+		}
+
+		public function removerAulaDoCurso($professor, $senha, $nomeAula, $curso){
+
+			if($this->validarProfessor($professor, $senha)){
+
+				session_start();
+				$aula = $_SESSION['controladorCurso']->buscarAula($nomeAula, $curso);
+				$_SESSION['controladorCurso']->removerAula($aula);
+			}
+		}
+
+		public function responderSolicitacaoAmizade($respostaDaSolicitacao){
+
+			$amigo = $this->proxSolicitacaoAmizade($this->usuarioAtual);
+			
+			if ($respostaDaSolicitaca) $this->aceitarAmizade($this->usuarioAtual, $amigo);
+			else excluirSolicitacaoAmizade($this->usuarioAtual, $amigo);
+		}
 
 		/////////////////////
 
