@@ -1,31 +1,28 @@
 $(document).ready(function(){
-	
-	makeBorder(".footer-image", "#888", "#fff");
 
+
+	$('.entrar-login').click(function(e){
+
+		//Desativa o evento padrão do elemento
+		e.preventDefault();
+		$dados = new Object();
+
+		
+		$.ajax({
+			url: (  location.href + "/login"),
+			type: "post",
+			async: true,
+			data: $dados,
+			cache: false
+		})
+		.done(function(data){
+			
+			window.location.assign("../LearnStation/perfil");
+
+		})
+		.fail(function(){
+			console.log("pãã");
+		});
+
+	});
 });
-
-function makeBorder(afterElement, colorPrimary, colorSecondary){
-
-	element = "<svg width='100%' height='30px'><path fill="+ colorPrimary+" d='M 0,0 L ";
-
-	var width = $(document).width();
-	var pass = width/24;
-
-	for(i = 1; i*pass <= width; i++){
-
-		element += i*pass + ',' + (i%2==0 ? 0 : 30) + " ";
-	}
-
-	element += "'></path><path fill="+ colorSecondary+" d='M 0,0 L ";
-
-	for(i = 1; i*pass <= width; i++){
-
-		element += i*pass + ',' + (i%2==0 ? 0 : 20) + " ";
-	}
-
-
-	element += "'></path></svg>"
-
-	$(afterElement).before(element);
-}	
-

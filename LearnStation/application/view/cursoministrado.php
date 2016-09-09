@@ -6,12 +6,11 @@
 	<script src="<?php echo $assets['script']?>jquery-3.1.0.min.js"></script>
 	<script src="<?php echo $assets['script']?>cursoministrado.js"></script>
 	<link rel="stylesheet" href="<?php echo $assets['style']?>cursoministrado.css">
+	<link rel="stylesheet" href="<?php echo $assets['style']?>header.css">
+	<script src="<?php echo $assets['script']?>header.js"></script>
 </head>
 <body>
-	<header class="header-box">
-		<div class="header-element-title">LearnStation</div>
-		<div class="header-element-field"><form action=""><input type="text"/></form></div>
-	</header>
+	<?php require_once "header.php" ?>
 	<section>
 		<div class="curso">
 			<div class="titulo">Estrutura de Dados I</div>
@@ -23,28 +22,62 @@
 			<div class="topic">Nota média: 7.3</div>
 			<div class="listagem">
 				<header>Lista de Aulas</header>
-				<div class="listagem-curso aula">01 - Alocação Dinâmica</div>
-				<div class="listagem-curso aula">02 - Lista Estática</div>
-				<div class="listagem-curso aula">03 - Lista Encadeada Simples</div>
-				<div class="listagem-curso aula">04 - Lista Encadeada Dupla e Circular</div>
-				<div class="listagem-curso aula">05 - Fila</div>
-				<div class="listagem-curso aula">06 - Pilha</div>
-				<div class="listagem-curso aula">07 - Exercício: Torre de Hanoi</div>
-				<div class="listagem-curso aula">08 - Listas Múltiplas</div>
-				<div class="listagem-curso aula">09 - Matriz Esparsa</div>
-				<div class="listagem-curso aula">10 - Desafio: Processamento de Imagem Bitmap</div>
-				<div class="listagem-curso aula">11 - Desafio: Labirinto do Rato</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">01 - Alocação Dinâmica</div>			
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">02 - Lista Estática</div>			
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">03 - Lista Encadeada Simples</div>				
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">04 - Lista Encadeada Dupla e Circular</div>				
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">05 - Fila</div>				
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">06 - Pilha</div>				
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">07 - Exercício: Torre de Hanoi</div>				
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">08 - Listas Múltiplas</div>				
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">09 - Matriz Esparsa</div>				
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">10 - Desafio: Processamento de Imagem Bitmap</div>					
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
+				<div class="block-list">
+					<div class="listagem-curso aula">11 - Desafio: Labirinto do Rato</div>					
+					<div title="Remover aula"  class="remover-aula-button">X</div>
+				</div>
 			</div>
-
 			<div class="nova-aula">
 				<header>Adicionar aula</header>
 				<form>
 					<input type="text" placeholder="Título da aula" name="titulo" title="Título da Aula" />
 					<textarea placeholder="Descrição" class="form-element" name="desc" resizable="off"></textarea>
-					<label class="form-element">Conteúdo<input type="file" name="conteudo" title="Conteúdo" /></label>
+					<label class="form-element">Conteúdo<input type="file" name="conteudo" title="Conteúdo" multiple/></label>
 					<div class="form-element-button add-aula">Enviar</div>
 				</form>
 			</div>
+			<div class="message-success message-remover-aula">Aula removida com sucesso</div>
+			<div class="message-success message-add-aula">Aula adicionada com sucesso</div>
 		</div>
 	</section>
 	<footer>

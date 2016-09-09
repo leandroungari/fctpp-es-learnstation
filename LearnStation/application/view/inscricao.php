@@ -12,6 +12,7 @@
 		<div class="header-element-title">LearnStation</div>
 	</header>
 	<section>
+		<div class="message-success message-efetuar-inscricao">Inscrição efetuada com sucesso</div>
 		<form class="login-box">
 			<input type="text" name="Nome" placeholder="Nome Completo" />
 			<input type="date" name="data" title="Data de Nascimento" />
@@ -19,7 +20,7 @@
 			<input type="text" name="descricao" placeholder="Descrição pessoal">
 			<input type="email" placeholder="E-mail" />
 			<input type="password" placeholder="Senha" />
-			<div class="form-element-button">Entrar</div>
+			<div class="form-element-button efetuar-inscricao">Entrar</div>
 		</form>
 	</section>
 	<footer>

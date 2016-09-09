@@ -35,14 +35,6 @@
 			$this->removerInscricaoCurso($aluno, $cursoAtual);
 		}
 
-		public function criarConta($nome, $data, $pais, $email, $senha){
-			$validado = $this->validarUsuarioCadastro($nome, $data, $pais, $email, $senha);
-			
-			if($validado){
-				$usuario = new Usuario($nome, $data, $pais, $email, $senha);
-				$this->registrarUsuario($usuario);
-			}
-		}
 
 		public function criarCurso($nome, $data, $area, $descricao){
 
@@ -61,12 +53,13 @@
 
 			session_start();
 			$aluno = $_SESSION['controladorUsuario']->getUsuarioAtual();
-			$this->registrarAlunoCurso($aluno,$this->cursoAtual)
+			$this->registrarAlunoCurso($aluno,$this->cursoAtual);
 		}
 
 		public function listarCursos($nomeCurso){
 
 			$cursos = $this->buscarCursos($nomeCurso);
+			return $cursos;
 		}
 
 		///////////////////////////////////////

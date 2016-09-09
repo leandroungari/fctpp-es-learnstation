@@ -9,4 +9,9 @@
 
 			$this->view('login');
 		}
+
+		public function login(){
+			session_start();
+			$_SESSION['controladorUsuario']->iniciarSessaoUsuario($email, $senha);
+		}
 	}

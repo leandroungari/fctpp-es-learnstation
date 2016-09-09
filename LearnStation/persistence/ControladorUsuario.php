@@ -19,6 +19,15 @@
 			$this->removerAmizade($usuarioAtual, $amigo);
 		}
 
+		public function criarConta($nome, $data, $pais, $email, $senha){
+			$validado = $this->validarUsuarioCadastro($nome, $data, $pais, $email, $senha);
+			
+			if($validado){
+				$usuario = new Usuario($nome, $data, $pais, $email, $senha);
+				$this->registrarUsuario($usuario);
+			}
+		}
+
 		public function denunciarConteudo($tipo, $usuario, $mensagem){
 
 			session_start();
@@ -65,6 +74,7 @@
 		public function listarUsuarios($nomeUsuario){
 			
 			$usuarios = $this->buscarUsuarios($nomeUsuario);
+			return $usuarios;
 		}
 
 		public function receberMensagemAmigo($nomeUsuario){

@@ -10,6 +10,33 @@
 	src: url("fonts/OpenSans.woff");
 }
 
+.listagem > .listagem-curso, .listagem  .listagem-curso{
+	position: relative;
+	padding: 7px 30px;
+	background: #dedede;
+	color: #000;
+	font-family: Tahoma;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 2px;
+}
+
+
+.remover-aula-button{
+	position: absolute;
+	display: inline-block;
+	top: 0; right: -32px;
+	background: #000;
+	width: 8px; height: 18px;
+	color: #fff;
+	font-family: DinPro;
+	padding: 6px; cursor: pointer;
+}
+
+.block-list{
+	position: relative;
+}
+
 .header-box{     
 	position: relative;     
 	display: block;     
@@ -17,6 +44,17 @@
 	width: 94%; height: 50px;     
 	line-height: 50px;
 	background: #000;
+}
+
+.message-success{
+	position: fixed;
+	padding: 15px 20px;
+	font-family: DinPro;
+	font-size: 20px;
+	z-index: 15;
+	bottom:20px; right: 20px;
+	background: green; color: #fff;
+	display: none;
 }
 
 .header-element-field > form > input{

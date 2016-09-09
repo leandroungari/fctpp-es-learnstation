@@ -21,10 +21,14 @@
 
 		public function receberDenunciaUsuario(){
 
+			$denuncia = null;
+
 			if($this->existeDenuncia()){
 
 				$denuncia = $this->proxDenuncia();
 			}
+
+			return $denuncia;
 		}
 
 		public function removerConteudoInadequado($denuncia){

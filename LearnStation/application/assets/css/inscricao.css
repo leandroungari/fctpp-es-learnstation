@@ -19,6 +19,17 @@
 	background: #000;
 }
 
+.message-success{
+	position: fixed;
+	padding: 15px 20px;
+	font-family: DinPro;
+	font-size: 20px;
+	z-index: 15;
+	bottom:20px; right: 20px;
+	background: green; color: #fff;
+	display: none;
+}
+
 [class*="header-element"]{
 	display: inline;
 	width: auto; height: inherit;

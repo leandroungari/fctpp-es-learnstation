@@ -15,7 +15,7 @@
 		<form class="login-box">
 			<input type="email" placeholder="E-mail" />
 			<input type="password" placeholder="Senha">
-			<div class="form-element-button">Entrar</div>
+			<div class="form-element-button entrar-login">Entrar</div>
 		</form>
 	</section>
 	<footer>

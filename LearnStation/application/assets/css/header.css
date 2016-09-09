@@ -1,0 +1,114 @@
+.header-element-icon{
+	position: absolute;
+	top: 7px; left: 950px;
+}
+
+.header-element-icon > .message{
+	background-image: url("images/message.png");
+}
+
+.header-element-icon > .exclamation{
+	background-image: url("images/ex.png");
+}
+
+.header-element-icon > .logout{
+	background-image: url("images/logout.png");
+}
+
+.header-element-icon > .friends{
+	background-image: url("images/friends.png");
+}
+
+.header-element-icon > div{
+	display: inline-block;
+	margin-left: 15px;
+	width: 15px; height: 15px;
+	padding: 5px;
+	background-size: 25px;
+	cursor: pointer;
+}
+
+.nova-denuncia{
+	position: absolute;
+	display: none;
+	z-index: 60;
+	padding: 20px;
+	top: calc(100vh/2 - 175px); left: calc(100vw/2 - 350px);
+	width: 700px; height: 350px;
+	background: #000;
+}
+
+.solicitacao-amizade{
+	position: absolute;
+	display: none;
+	z-index: 60;
+	padding: 20px;
+	top: calc(100vh/2 - 175px); left: calc(100vw/2 - 350px);
+	width: 700px; height: 350px;
+	background: #000;
+	overflow-y: auto;
+}
+
+.nova-denuncia > header, .conversa-receber header, .solicitacao-amizade > header{
+	background-color: #990000;
+	display: inline-block;
+	font-family: DinPro;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+}
+
+.pesquisa-resultado{
+	position: absolute;
+	display: none;
+	top: 45px; left: 309px;
+	padding: 7px;
+	border: 1px solid #000;
+	width: 300px; height: 270px;
+	background-color: #fff;
+	z-index: 20;
+}
+
+.message-success{
+	position: fixed;
+	padding: 15px 20px;
+	font-family: DinPro;
+	font-size: 20px;
+	z-index: 15;
+	bottom:20px; right: 20px;
+	background: green; color: #fff;
+	display: none;
+	z-index: 100;
+}
+
+.conversa-receber > form > header{
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.conversa-receber{
+	position: absolute;
+	display: none;
+	z-index: 60;
+	padding: 20px;
+	top: calc(100vh/2 - 250px); left: calc(100vw/2 - 300px);
+	width: 600px; height: 500px;
+	background: #000;
+	overflow-y: auto;
+}
+
+.request{
+	display: inline-block;
+	width: 97%;
+	padding: 5px;
+	font-family: DinPro;
+	border: 1px solid #fff;
+	margin-top: 5px;
+}
+
+.request .nome{
+	padding: 5px;
+	font-size: 20px;
+	color: #fff;
+}

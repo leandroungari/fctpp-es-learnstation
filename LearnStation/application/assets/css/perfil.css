@@ -9,10 +9,23 @@
 	font-family: OpenSans;
 	src: url("fonts/OpenSans.woff");
 }
-.listagem > .listagem-curso:hover{
+.listagem > .listagem-curso:hover, .listagem  .listagem-curso:hover{
 	background: #000;
 	color: #fff;
 }
+
+.message-success{
+	position: fixed;
+	padding: 15px 20px;
+	font-family: DinPro;
+	font-size: 20px;
+	z-index: 15;
+	bottom:20px; right: 20px;
+	background: green; color: #fff;
+	display: none;
+	z-index: 100;
+}
+
 .header-box{     
 	position: relative;     
 	display: block;     
@@ -62,7 +75,6 @@
  	width: 28px; height: 40px;
  	background-size: 28px 40px;
 	background-size: contain;
-
 }
 
 
@@ -95,11 +107,15 @@ input{
 	height: 30px; line-height: 30px;
 	vertical-align: middle;
 	cursor: pointer;
+	background-color: #fff;
+	z-index: 50;
+	border: 0;
 }
 
 .form-element-button:hover{
 	background: #000;
 	color: #fff;
+	border: 1px solid #fff;
 }
 
 .info{
@@ -139,7 +155,7 @@ input{
 	width: 1000px;	
 }
 
-.listagem > header{
+.listagem > header, .detalhe-denuncia > header, .novo-curso > header, .conversa >header, .encerrar-conta > header{
 	background-color: #990000;
 	display: inline-block;
 	font-family: DinPro;
@@ -149,7 +165,54 @@ input{
 	margin-bottom: 10px;
 }
 
-.listagem > .listagem-curso{
+.detalhe-denuncia{
+	position: absolute;
+	display: none;
+	z-index: 60;
+	padding: 20px;
+	top: calc(100vh/2 - 250px); left: calc(100vw/2 - 300px);
+	width: 600px; height: 500px;
+	background: #000;
+}
+
+.novo-curso{
+	position: absolute;
+	display: none;
+	z-index: 60;
+	padding: 20px;
+	top: calc(100vh/2 - 250px); left: calc(100vw/2 - 300px);
+	width: 600px; height: 500px;
+	background: #000;
+}
+
+.conversa{
+	position: absolute;
+	display: none;
+	z-index: 60;
+	padding: 20px;
+	top: calc(100vh/2 - 150px); left: calc(100vw/2 - 300px);
+	width: 600px; height: 300px;
+	background: #000;
+}
+.encerrar-conta{
+	position: absolute;
+	display: none;
+	z-index: 60;
+	padding: 20px;
+	top: calc(100vh/2 - 75px); left: calc(100vw/2 - 300px);
+	width: 600px; height: 150px;
+	background: #000;
+}
+
+textarea{
+	margin-left: 10px;
+	display: block!important;
+	padding: 10px;
+	font-size: 16px;
+	width: 400px!important; height: 150px!important;
+}
+
+.listagem > .listagem-curso, .listagem  .listagem-curso{
 	position: relative;
 	padding: 7px 30px;
 	background: #dedede;
@@ -158,6 +221,22 @@ input{
 	font-size: 14px;
 	cursor: pointer;
 	margin-top: 2px;
+}
+
+
+.remover-aula-button{
+	position: absolute;
+	display: inline-block;
+	top: 0; right: -32px;
+	background: #000;
+	width: 8px; height: 18px;
+	color: #fff;
+	font-family: DinPro;
+	padding: 6px; cursor: pointer;
+}
+
+.block-list{
+	position: relative;
 }
 
 footer{

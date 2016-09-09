@@ -6,12 +6,11 @@
 	<script src="<?php echo $assets['script']?>jquery-3.1.0.min.js"></script>
 	<script src="<?php echo $assets['script']?>aula.js"></script>
 	<link rel="stylesheet" href="<?php echo $assets['style']?>aula.css">
+	<link rel="stylesheet" href="<?php echo $assets['style']?>header.css">
+	<script src="<?php echo $assets['script']?>header.js"></script>
 </head>
 <body>
-	<header class="header-box">
-		<div class="header-element-title">LearnStation</div>
-		<div class="header-element-field"><form action=""><input type="text"/></form></div>
-	</header>
+	<?php require_once "header.php" ?>
 	<section>
 		<div class="curso">
 			<div class="titulo">Lista Encadeada Simples</div>
